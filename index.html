@@ -10,16 +10,16 @@
         <header>
             <h1 id="marque">Reservia</h1>
             <nav class="nav-up">
-                <ul><a href="https://fontawesome.com/">Hébergements</a></ul>
-                <ul><a href="https://flexboxfroggy.com/#fr">Activités</a></ul>
-                <ul><a href="https://openclassrooms.com/fr/">S'inscrire</a></ul>
+                <li><a href="https://fontawesome.com/">Hébergements</a></li>
+                <li><a href="https://flexboxfroggy.com/#fr">Activités</a></li>
+                <li><a href="https://openclassrooms.com/fr/">S'inscrire</a></li>
             </nav>
         </header>
         <main>
             <section>
                 <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <h3 id="vilnatur">En pleine ville ou en pleine nature</h3>
-                <div class="choixuser" id="choix">
+                <div class="form" id="choix">
                     <form 
                      action="paspret.js.js" method="POST" title="Vous cherchez dans quelle ville?">
                         <!-- <label></label> -->
@@ -28,26 +28,26 @@
                         <button id="search" type="button" value="Rechercher">Rechercher</button>
                     </form>
                 </div>
-                <div class="choixuser" id="filtre">
-                    <form  action="paspret.js" method="POST" title="choixuser">
+                <div class="form" id="filtre">
+                    <form  action="paspret.js" method="POST" title="form">
                         <label>Filtres</label>
-                        <i class="fas fa-money-bill-wave"></i>
+                        <i class="fas fa-money-bill-wave" style="color: rgb(77, 148, 255);"></i>
                         <input type="text" name="" value="Economique">
-                        <i class="fas fa-child"></i>
+                        <i class="fas fa-child" style="color: rgb(77, 148, 255);"></i>
                         <input type="text" value="Familial">
-                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart" style="color: rgb(77, 148, 255);"></i>
                         <input type="text" value="Romantique">
-                        <i class="fas fa-dog"></i>
+                        <i class="fas fa-dog" style="color: rgb(77, 148, 255);"></i>
                         <input type="text" value="Animaux autorisés">
                     </form>
                 </div>
             </section>
-            <section>
+            <section class="" >
                 <section id="gdpic">
                     <h2>Hébergements à Marseille</h2>
                     <section id="grp-pic">
                         <div class="phototel">
-                            <img src="pic/pexels-julie-aagaard-2467285.jpg" alt="" width="300px" height="220px">
+                            <img src="pic/pexels-julie-aagaard-2467285.jpg" alt="" width="300px" height="220px" style="border-radius: 10%;">
                             <h3>Auberge La Cannebière</h3>
                             <h4>Nuit à partir de 25euros</h4>
                             <div class="star">
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </section>
-                    <h3><a href="https://grafikart.fr/">Afficher plus</a></h3>
+                    <h3><a href="https://grafikart.fr/" target="_blank">Afficher plus</a></h3>
                     
                 </section>
                 <aside>
@@ -127,7 +127,8 @@
                         <h2>Les plus populaires</h2>
                         <div><i class="fas fa-chart-line"></i></div>
                     </div>
-                    <div>
+                  <div>
+                    <div class="picaside">
                         <img src="" alt="">
                         <h3>Hôtel Le Soleil Du Matin</h3>
                         <h4>Nuit à partir de 128euros</h4>
@@ -163,6 +164,7 @@
                             <i class="fal fa-star"></i>
                         </div>
                     </div>
+                  </div>
                 </aside>
             </section>
             <section>
