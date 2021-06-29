@@ -1,0 +1,116 @@
+body {
+    width: 1200px;
+    border:1px solid purple ;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#marque {
+    color: rgb(77, 148, 255);
+    width: 45%;
+    border: 1px solid black;
+}    
+
+.nav-up {
+    display: flex;
+    
+    width: 45%;
+    padding: 2px;
+    border: 1px solid green;
+    justify-content: flex-end;
+}
+.nav-up ul {
+    justify-content: space-around;
+    color: rgb(77, 148, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    border-color:red;
+}
+.nav-up ul a {
+    /*  On prepare l'animation des navigations au passage et quand cest cliqué*/
+}
+main {
+    border: 1px solid orangered;
+    margin: 10px;
+    width: 1100px;
+}
+#position {
+    width: 33%;
+}
+#choix {
+    background-color: rgb(187, 186, 186);
+    height: 20px;
+    width: 30%;
+    border: 1px solid red;
+}
+#filtre {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.choixuser {
+
+}
+#search {
+    width: 33%;;
+    background-color: rgb(77, 148, 255);
+    color: white;
+}
+#titre {
+    font-weight: bold;
+}
+#vilnatur {
+    color: rgb(119, 115, 115);
+}
+section {
+padding: 5px;
+display: flex;
+justify-content: space-around;
+}
+#grp-pic {
+    display: flex;
+}
+.phototel {
+    width: 300px;
+    height: 350px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5%;
+}
+
+#gdpic {
+    /* */
+}
+aside {
+    width: 25%;
+
+}
+
+.star {
+    color: rgb(77, 148, 255); ;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: ;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.minigrp {
+    display: flex;
+    
+}
+.grppic {
+    display: flex;
+    justify-content: stretch;
+}
