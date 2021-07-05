@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 3000px;
     height: 100%;
     border:1px solid purple ;
     margin-left: 2%;
@@ -40,7 +40,7 @@ header {
 main {
     border: 1px solid orangered;
     margin: 10px;
-    width: 90%;
+    width: 98%;
 }
 #position {
     width: 33%;
@@ -77,18 +77,15 @@ padding: 5px;
 }
 #grp-pic {
     display: flex;
-    background-color: grey;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(187, 187, 187);
     border-radius: 20px 0 20px 0;
 }
-
-.phototel {
+.pilier {
+    display: flex;
     
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid blue;
-    border-radius: 5%;
 }
-
 #gdpic {
     display: flex;
     justify-content: space-around;
@@ -97,8 +94,19 @@ padding: 5px;
     
     word-wrap: break-word;
 }
+.phototel {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5%;
+}
+
+
 aside {
-    width: 45%;
+    width: 25%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
