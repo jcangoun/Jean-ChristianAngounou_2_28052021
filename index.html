@@ -2,15 +2,20 @@
     <head>
         <meta charset="utf-8" />
         <script src="https://kit.fontawesome.com/2eb67eaae2.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">>
         <title>C'est reparti après un super vieux bug</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        
         
     </head>
     <body>
         <header>
             <div id="marque"><img src="./images/logo/Reservia.svg" alt="" ></div>
             <nav class="nav-up">
-                <li><a href="#hebrgMars">Hébergements</a></li>
+                <li><a href="#hebrgmars">Hébergements</a></li>
                 <li><a href="#activt">Activités</a></li>
                 <li><a href="https://openclassrooms.com/fr/">S'inscrire</a></li>
             </nav>
@@ -23,7 +28,7 @@
                     <form 
                      action="paspret.js.js" method="POST" title="Vous cherchez dans quelle ville?">
                         <!-- <label></label> -->
-                        <span id="position"><i class="fas fa-map-marker-alt"></i></span>
+                        <span style="font-size: 20px;" id="position"><i class="fas fa-map-marker-alt"></i></span>
                         <input type="text" name="villeforsearch" value="Ville, Pays">
                         <button id="search" type="button" value="Rechercher">Rechercher</button>
                     </form>
@@ -44,10 +49,10 @@
             </section>
             <section class="pilier" >
                 <section id="gdpic">
-                    <h2 id="hebrgMars">Hébergements à Marseille</h2>
+                    <h2 id="hebrgmars">Hébergements à Marseille</h2>
                     <section id="grp-pic">
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" width="300px" height="220px" style="border-radius: 10%;">
+                            <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=""  style="border-radius: 10%;">
                             <h3 >Auberge La Cannebière</h3>
                             <h4>Nuit à partir de 25euros</h4>
                             <div class="star">
@@ -59,7 +64,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" width="300px" height="220px">
+                            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" >
                             <h3>Hôtel Du Port</h3>
                             <h4>Nuit à partir de 52euros</h4>
                             <div class="star">
@@ -71,7 +76,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" width="300px" height="220px">
+                            <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" >
                             <h3>Hôtel Les Mouettes</h3>
                             <h4>Nuit à partir de 76euros</h4>
                             <div class="star">
@@ -83,7 +88,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" width="300px" height="220px">
+                            <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" >
                             <h3>Hôtel De La Mer</h3>
                             <h4>Nuit à partir de 46euros</h4>
                             <div class="star" >
@@ -95,7 +100,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" width="300px" height="220px">
+                            <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" >
                             <h3>Auberge Le Panier</h3>
                             <h4>Nuit à partir de 23euros</h4>
                             <div class="star">
@@ -107,7 +112,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" width="300px" height="220px">
+                            <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" >
                             <h3>Hôtel Chez Amina</h3>
                             <h4>Nuit à partir de 96euros</h4>
                             <div class="star">
@@ -130,7 +135,7 @@
                             <div id="courb"><i class="fas fa-chart-line"></i>
                         </div>
                     </div>
-                  <div>
+                  <div class="gaside">
                     <div id="1" class="picaside">
                         <img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" width="300px" height="220px">
                         <div class="haside">
@@ -145,6 +150,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div id="2" class="picaside">
                         <img src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" width="300px" height="220px">
                         <div class="haside">
@@ -159,52 +165,55 @@
                             </div
                         </div>
                     </div>
-                    <div id="3" class="picaside">
+                    
+                    
+                  </div>
+
+                  <div id="3" class="picaside">
                         <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" width="300px" height="220px">
                         <div class="haside">
                             <h3>Hôtel Tout Bleu et Blanc</h3>
-                        <h4>Nuit à partir de 68euros</h4>
-                        <div class="star"  >
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fal fa-star"></i>
-                        </div>
+                            <h4>Nuit à partir de 68euros</h4>
+                            <div class="star"  >
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fal fa-star"></i>
+                            </div>
                         </div>
                     </div>
-                  </div>
                 </aside>
             </section>
-            <section id="contactivt">
-                <h2 id="activt">Activités à Marseille</h2>
+            <section class="contactiv">
+                <h2 id="activ">Activités à Marseille</h2>
                 <div class="grppic" >
                     <div id="activ1">
                         <img  src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
-                        <h4>Vieux Port</h4>
+                        <h4 style="font-size: 30px; font-weight: normal;">Vieux Port</h4>
                     </div>
                     <div id="activ2" >
                         <div>
                             <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-                            <h4>Fort de Pomègues</h4>
+                            <h4 style="font-size: 30px; font-weight: normal;">Fort de Pomègues</h4>
                         </div>
                         <div>
                             <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-                            <h4>îles du Frioul</h4>
+                            <h4 style="font-size: 30px; font-weight: normal;">îles du Frioul</h4>
                         </div>
                     </div>
                     <div id="activ3">
                         <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
-                        <h4>Parc National des Calanques</h4>
+                        <h4 style="font-size: 30px; font-weight: normal;">Parc National des Calanques</h4>
                     </div>
                     <div id="activ4">
                         <div>
                             <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <h4>Notre-Dame-de-la-Garde</h4>
+                            <h4 style="font-size: 30px; font-weight: normal;">Notre-Dame-de-la-Garde</h4>
                         </div>
                         <div>
                             <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-                            <h4>Parc Longchamp</h4>
+                            <h4 style="font-size: 30px; font-weight: normal;">Parc Longchamp</h4>
                         </div>
                     </div>
                 </div>
@@ -213,20 +222,20 @@
         </main>
         <footer>
             <div>
-                <h3>A propos</h3>
-                <h4>Fonctionnement du Site </h4>
-                <h4>Conditions générales de vente</h4>
-                <h4>Données et Confidentialité</h4>
+                <h3 style="font-size: 40px;  font-weight: bold;">A propos</h3>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Fonctionnement du Site </h4>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Conditions générales de vente</h4>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Données et Confidentialité</h4>
             </div>
             <div>
-                <h3>Nos hébergements</h3>
-                <h4>Charte Qualité</h4>
-                <h4>Soumettre votre hôtel</h4>
+                <h3 style="font-size: 40px;  font-weight: bold;">Nos hébergements</h3>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Charte Qualité</h4>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Soumettre votre hôtel</h4>
             </div>
             <div>
-                <h3>Assistance</h3>
-                <h4>Centre d'aide</h4>
-                <h4>Nous contacter</h4>
+                <h3 style="font-size: 40px; font-weight: bold;">Assistance</h3>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Centre d'aide</h4>
+                <h4 style="font-size: 30px;  font-weight: lighter;">Nous contacter</h4>
             </div>
         </footer>
     </body>

@@ -1,7 +1,6 @@
 body {
-    width: 3000px;
-    height: 5000px;
-    border:1px solid purple ;
+ 
+    
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -14,7 +13,7 @@ header {
     color: rgb(77, 148, 255);
     font-size: 40px;
     width: 45%;
-    border: 1px solid black;
+    
 }    
 
 .nav-up {
@@ -25,8 +24,11 @@ header {
     font-size: 40px;
     width: 45%;
     padding: 2px;
-    border: 1px solid green;
     
+    
+}
+#hebrgmars {
+    font-size: 30px;
 }
 .nav-up li {
     display: flex;
@@ -35,22 +37,22 @@ header {
     margin-left: 5px;
     margin-right: 5px;
     padding: 2px;
-    border-color:red;
 
 }
 main {
-    border: 1px solid orangered;
+    
     margin: 10px;
     width: 98%;
+    
 }
 #position {
     width: 33%;
 }
 #choix {
-    background-color: rgb(187, 186, 186);
-    height: 20px;
-    width: 30%;
-    border: 1px solid red;
+    background-color: rgb(#F2F2F2);
+    height: 50px;
+    width: 20%;
+    
 }
 #filtre {
     margin: 10px;
@@ -73,6 +75,11 @@ font-family: 'Courier New', Courier, monospace;
 #vilnatur {
     color: rgb(243, 243, 243);
 }
+button {
+    
+    font-size: 30px;
+    border-radius: 0px 20px 20px 0px;
+}
 section {
 padding: 5px;
 }
@@ -86,6 +93,7 @@ h2 {
     background-color: rgb(243, 243, 243);
     border-radius: 20px 0 20px 0;
 }
+
 .pilier {
     display: flex;
     
@@ -99,24 +107,39 @@ h2 {
     word-wrap: break-word;
 }
 .phototel {
-    width: auto;
+    width: 300px;
+     height:220px;
     background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 5px;
     padding: 5px;
-    border: 1px solid blue;
+
     border-radius: 5%;
 }
 
 
 aside {
-    width: 40%;
+    border-radius: 20px;
+  width: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(243, 243, 243);
+    border: 1px solid #F2F2F2;
+    margin: auto;
+    padding: 2px;
+
+    /* 
+          width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+
+    tout ca c'est l'element davant un peu semblable
+    */
 }
 #popul {
     font-weight: bold;
@@ -128,12 +151,19 @@ aside {
 #courb {
     margin: 5px;
 }
+.gaside {               /*   on dirait que gaside ou picaside, marche seulement sur le "id 1".*/
+    width: auto;
+}
 .picaside {
-    
     display: flex;
-    justify-content: flex-start; 
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* rechercher */
 }
 #haside {  
+
+    /*                       1er  ceci n'a pas l'air de faire grand chose ca vient dent haut surement à gaside
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -141,6 +171,9 @@ aside {
     margin: 5px;
     font-size: 20px;
     border: 1px solid black;
+    */
+
+    font-weight: bolder;
 }
 .star {
     color: rgb(77, 148, 255); ;
@@ -158,16 +191,42 @@ footer div {
     flex-direction: column;
 }
 
-    
-#grppic {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-wrap: wrap;
+.contactiv {
+   
+   display: flex;
+   flex-direction: column; /* c'est a tester avec et sans , vaut mieux sans d'abord */
+   
+}   
+
+
+#activ {
+    font-size: 30px;
 }
 
-
+#grppic {
+    width: 90%;
+}
+    
+#activ1 {
+    width: 20%;
+    
+    margin: 2px;
+    background-image: none;
+    background-size: 300px 220px;
+    background-repeat: no-repeat;   
+}
+#activ2 {
+    
+    margin: 2px;
+}
+#activ3 {
+    
+    margin: 2px;
+}
+#activ4 {
+    
+    margin: 2px;
+}
 
 div h3 {
     font-size: 30px;
@@ -176,6 +235,6 @@ div h4 {
     font-size: 20px;
 }
 
-#contactict {
-   border: 1px solid black;
-}
+/* #1 h4 {
+    font-family: ral;
+}   */
