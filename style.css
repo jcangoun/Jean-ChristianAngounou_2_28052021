@@ -1,6 +1,6 @@
 body {
     width: 3000px;
-    height: 100%;
+    height: 5000px;
     border:1px solid purple ;
     margin-left: 2%;
     margin-right: 2%;
@@ -160,10 +160,10 @@ footer div {
 
     
 #grppic {
-    width: auto;
+    width: 90%;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -174,4 +174,8 @@ div h3 {
 }
 div h4 {
     font-size: 20px;
+}
+
+#contactict {
+   border: 1px solid black;
 }
