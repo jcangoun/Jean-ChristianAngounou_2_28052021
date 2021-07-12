@@ -1,6 +1,4 @@
 body {
- 
-    
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -21,7 +19,7 @@ header {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     width: 45%;
     padding: 2px;
     
@@ -55,6 +53,7 @@ main {
     
 }
 #filtre {
+    font-size: 30px;
     margin: 10px;
     padding: 5px;
     display: flex;
@@ -73,7 +72,8 @@ font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
 }
 #vilnatur {
-    color: rgb(243, 243, 243);
+    color: black;
+    font-weight: normal;
 }
 button {
     
@@ -107,8 +107,8 @@ h2 {
     word-wrap: break-word;
 }
 .phototel {
-    width: 300px;
-     height:220px;
+    width: auto;
+     height:auto;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -151,7 +151,7 @@ aside {
 #courb {
     margin: 5px;
 }
-.gaside {               /*   on dirait que gaside ou picaside, marche seulement sur le "id 1".*/
+.gaside {               /* probleme de longueur de texte qui du coupe le met verticalement décalé*/
     width: auto;
 }
 .picaside {
@@ -162,8 +162,6 @@ aside {
     /* rechercher */
 }
 #haside {  
-
-    /*                       1er  ceci n'a pas l'air de faire grand chose ca vient dent haut surement à gaside
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -171,8 +169,7 @@ aside {
     margin: 5px;
     font-size: 20px;
     border: 1px solid black;
-    */
-
+    
     font-weight: bolder;
 }
 .star {
@@ -194,7 +191,7 @@ footer div {
 .contactiv {
    
    display: flex;
-   flex-direction: column; /* c'est a tester avec et sans , vaut mieux sans d'abord */
+   flex-direction: column;
    
 }   
 
@@ -235,6 +232,6 @@ div h4 {
     font-size: 20px;
 }
 
-/* #1 h4 {
-    font-family: ral;
-}   */
+#1 h4 {
+    font-family: raleway;
+}   
