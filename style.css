@@ -16,7 +16,7 @@ header {
 
 .nav-up {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     font-size: 30px;
@@ -39,8 +39,8 @@ header {
 }
 main {
     
-    margin: 10px;
-    width: 98%;
+    margin: 5px;
+    width: auto;
     
 }
 #position {
@@ -74,6 +74,7 @@ font-family: 'Courier New', Courier, monospace;
 #vilnatur {
     color: black;
     font-weight: normal;
+    font-size: 30px;
 }
 button {
     
@@ -96,12 +97,12 @@ h2 {
 
 .pilier {
     display: flex;
+    width: 100%;
     
 }
 #gdpic {
     display: flex;
     
-    align-items: stretch;
     flex-direction: column;
     
     word-wrap: break-word;
@@ -115,20 +116,20 @@ h2 {
     flex-direction: column;
     margin: 5px;
     padding: 5px;
-
     border-radius: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
 
 aside {
     border-radius: 20px;
-  width: auto;
+  width: 35%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(243, 243, 243);
     border: 1px solid #F2F2F2;
-    margin: auto;
+    margin: 5px;
     padding: 2px;
 
     /* 
@@ -233,5 +234,5 @@ div h4 {
 }
 
 #1 h4 {
-    font-family: raleway;
+    font-family: "raleway";
 }   
