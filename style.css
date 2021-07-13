@@ -117,6 +117,7 @@ h2 {
     word-wrap: break-word;
 }
 .phototel {
+    flex: 25%;
     width: auto;
      height:auto;
     background-color: white;
@@ -164,7 +165,7 @@ aside {
 #courb {
     margin: 5px;
 }
-.gaside {               /* probleme de longueur de texte qui du coupe le met verticalement décalé*/
+.gaside {               /* probleme de longueur de texte qui du coup le met verticalement décalé*/
     width: auto;
 }
 .picaside {
@@ -261,6 +262,17 @@ div h4 {
 #1 h4 {
     font-family: "raleway";
 }   
+
+
+.phototel img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.picaside img {
+    height: 100px;
+    object-fit: cover;
+}
 #li-heb:active {
     color: #0065FC;
 }
