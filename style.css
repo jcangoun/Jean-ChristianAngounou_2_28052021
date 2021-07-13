@@ -274,18 +274,31 @@ opacity: 0.5;
 #li-heb:visited {
     background-color: red;
     opacity: 0.5;
-    border-bottom: #DEEBFF;
+    border-top: 5px solid  purple;
+    border-bottom: purple;
 }
 
 #li-activ:active {
 
-    border-top: 5px solid  #0065FC;
+    border-top: 5px solid  green;
 }
 #li-activ:hover {
 
     border-top: 5px solid  #0065FC;
 }
 #li-activ:visited {
+    background-color: red;
+    border-top: 5px solid  purple;
+}
+#li-inscript:active {
+
+    border-top: 5px solid  green;
+}
+#li-inscript:hover {
 
     border-top: 5px solid  #0065FC;
+}
+#li-inscript:visited {
+    background-color: red;
+    border-top: 5px solid  purple;
 }
