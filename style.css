@@ -1,0 +1,316 @@
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#marque {
+    color: rgb(77, 148, 255);
+    font-size: 40px;
+    width: 45%;
+    
+}    
+
+.nav-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    width: 45%;
+    padding: 2px;
+    
+    
+}
+#hebrgmars {
+    font-size: 30px;
+}
+.nav-up li {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(77, 148, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+
+}
+main {
+    
+    margin: 5px;
+    width: auto;
+    
+}
+#position {
+    width: 33%;
+}
+#choix {
+    
+    background-color: rgb(#F2F2F2);
+    height: 50px;
+    width: 30%;
+    
+}
+#filtre {
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    /*display: flex;
+    justify-content: flex-start; */
+}
+#eco {
+    
+    border-radius: 10%;  
+}
+#famil {
+    
+    border-radius: 10%;                               
+}
+.form {
+font-family: 'Courier New', Courier, monospace;
+}
+#search {
+    width: 33%;
+    background-color: rgb(77, 148, 255);
+    color: white;
+}
+#titre {
+    font-weight: bold;
+    
+}
+#vilnatur {
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+}
+button {
+    
+    border-radius: 0px 20px 20px 0px;
+    
+}
+section {
+padding: 5px;
+}
+h2 {
+    font-size: 20px;
+}
+#grp-pic {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+
+.pilier {
+    display: flex;
+    width: 100%;
+    
+}
+#gdpic {
+    display: flex;
+    flex:75%;    
+    flex-direction: column;
+    
+    word-wrap: break-word;
+}
+.phototel {
+    flex: 25%;
+    width: auto;
+     height:auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.impic {
+    border-radius: 5%;          /* la suite de la mission là sera de créer toute les config pour cette impic mais aussi créer les autres classs imaside et immars*/
+}
+
+aside {
+    border-radius: 20px;
+    flex: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid #F2F2F2;
+    margin: 5px;
+    padding: 2px;
+
+    /* 
+          width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+
+    tout ca c'est l'element davant un peu semblable
+    */
+}
+#popul {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#courb {
+    margin: 5px;
+}
+.gaside {               /* probleme de longueur de texte qui du coup le met verticalement décalé*/
+    width: auto;
+}
+.picaside {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* rechercher */
+}
+#haside {  
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    
+    font-weight: bolder;
+}
+.star {
+    color: rgb(77, 148, 255); ;
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#f2f2f2;
+
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contactiv {
+   
+   display: flex;
+   flex-direction: column;
+   
+}   
+
+
+#activ {
+    font-size: 30px;
+}
+
+.grppic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+    
+#activ1 {
+    width: 20%;
+    
+    margin: 2px;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#activ2 {
+    
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+#activ3 {
+    
+    margin: 2px;
+}
+#activ4 {
+    
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+div h3 {
+    font-size: 30px;
+}
+div h4 {
+    font-size: 20px;
+    
+}
+
+#1 h4 {
+    font-family: "raleway";
+}   
+
+
+.phototel img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.picaside img {
+    height: 100px;
+    object-fit: cover;
+}
+#li-heb:active {
+    color: #0065FC;
+}
+#li-heb:hover {
+
+border-top: 5px solid  #0065FC;
+
+opacity: 0.5;
+
+}
+#li-heb:visited {
+    background-color: red;
+    opacity: 0.5;
+    border-top: 5px solid  purple;
+    border-bottom: purple;
+}
+
+#li-activ:active {
+
+    border-top: 5px solid  green;
+}
+#li-activ:hover {
+
+    border-top: 5px solid  #0065FC;
+}
+#li-activ:visited {
+    background-color: red;
+    border-top: 5px solid  purple;
+}
+#li-inscript:active {
+
+    border-top: 5px solid  green;
+}
+#li-inscript:hover {
+
+    border-top: 5px solid  #0065FC;
+}
+#li-inscript:visited {
+    background-color: red;
+    border-top: 5px solid  purple;
+}
