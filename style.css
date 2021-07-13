@@ -47,17 +47,26 @@ main {
     width: 33%;
 }
 #choix {
+    
     background-color: rgb(#F2F2F2);
     height: 50px;
-    width: 20%;
+    width: 30%;
     
 }
 #filtre {
     font-size: 30px;
     margin: 10px;
     padding: 5px;
-    display: flex;
-    justify-content: flex-start;
+    /*display: flex;
+    justify-content: flex-start; */
+}
+#eco {
+    
+    border-radius: 10%;  
+}
+#famil {
+    
+    border-radius: 10%;                               
 }
 .form {
 font-family: 'Courier New', Courier, monospace;
@@ -119,6 +128,9 @@ h2 {
     border-radius: 5%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.impic {
+    border-radius: 5%;          /* la suite de la mission là sera de créer toute les config pour cette impic mais aussi créer les autres classs imaside et immars*/
 }
 
 aside {

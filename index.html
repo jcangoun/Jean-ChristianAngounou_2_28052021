@@ -36,14 +36,33 @@
                 <div class="form" id="filtre">
                     <form  action="paspret.js" method="POST" title="form">
                         <label>Filtres</label>
-                        <i class="fas fa-money-bill-wave" style="color: rgb(77, 148, 255);"></i>
-                        <input type="text" name="" value="Economique">
-                        <i class="fas fa-child" style="color: rgb(77, 148, 255);"></i>
-                        <input type="text" value="Familial">
-                        <i class="fas fa-heart" style="color: rgb(77, 148, 255);"></i>
-                        <input type="text" value="Romantique">
-                        <i class="fas fa-dog" style="color: rgb(77, 148, 255);"></i>
-                        <input type="text" value="Animaux autorisés">
+
+                        <div id="eco"> <!--  tous les input faudra les revoir au detail pour savoir pourquoi ils se mettent en column quand tu les assemble avec les bonnes balises -->
+                            <i class="fas fa-money-bill-wave" style="color: #0065FC; background-color: #DEEBFF;" ></i>
+                            <input type="text" name="" value="Economique" style="border: 2px solid #DEEBFF;">
+                            <i class="fas fa-child" style="color: rgb(77, 148, 255);"></i>
+                            <input type="text" value="Familial" style="border: 2px solid #DEEBFF;">
+                            <i class="fas fa-heart" style="color: rgb(77, 148, 255);"></i>
+                            <input type="text" value="Romantique">
+                            <i class="fas fa-dog" style="color: rgb(77, 148, 255);"></i>
+                            <input type="text" value="Animaux autorisés">
+                        </div>
+                        
+                        <div id="famil">
+                            <div>
+                                
+                            </div>   
+                            
+                        </div>
+                        <div id="romant">
+
+                        </div>
+                        <div id="autoriz">
+
+                        </div>
+                        
+                        
+                        
                     </form>
                 </div>
             </div>
@@ -52,7 +71,7 @@
                     <h2 id="hebrgmars">Hébergements à Marseille</h2>
                     <section id="grp-pic">
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=""  style="border-radius: 10%;">
+                            <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="impic" >
                             <h3 >Auberge La Cannebière</h3>
                             <h4>Nuit à partir de 25euros</h4>
                             <div class="star">
@@ -64,7 +83,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" >
+                            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" class="impic" >
                             <h3>Hôtel Du Port</h3>
                             <h4>Nuit à partir de 52euros</h4>
                             <div class="star">
@@ -76,7 +95,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" >
+                            <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" class="impic" >
                             <h3>Hôtel Les Mouettes</h3>
                             <h4>Nuit à partir de 76euros</h4>
                             <div class="star">
@@ -88,7 +107,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" >
+                            <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" class="impic" >
                             <h3>Hôtel De La Mer</h3>
                             <h4>Nuit à partir de 46euros</h4>
                             <div class="star" >
@@ -100,7 +119,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" >
+                            <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" class="impic" >
                             <h3>Auberge Le Panier</h3>
                             <h4>Nuit à partir de 23euros</h4>
                             <div class="star">
@@ -112,7 +131,7 @@
                             </div>
                         </div>
                         <div class="phototel">
-                            <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" >
+                            <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" class="impic" >
                             <h3>Hôtel Chez Amina</h3>
                             <h4>Nuit à partir de 96euros</h4>
                             <div class="star">
