@@ -47,6 +47,9 @@ header {
     padding: 20px;
 
 }
+form {
+    display: flex;
+}
 main {
     
     margin: 5px;
@@ -54,7 +57,7 @@ main {
     
 }
 #position {
-    width: 33%;
+    color: rgb(77, 148, 255);
 }
 #choix {
     
@@ -82,14 +85,24 @@ main {
     border-radius: 10%;  
 }
 #famil {
-    
+    display: flex;
     border-radius: 10%;                               
 }
+#romant {
+    display: flex;
+    border: 2px solid #DEEBFF;
+}
+#autoriz {
+    display: flex;
+    border: 2px solid #DEEBFF;
+}
+/*
 .form {
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', "Courier", "monospace";
-}
+    font-family: 'Courier New', "Courier", "monospace";   on dirait que ce .form ne marche pas 
+} */
+
 #famitest {
     border: 2px solid #F2F2F2;
     border-radius: 5%;
@@ -115,6 +128,7 @@ main {
 button {
     border: none;
     border-radius: 0px 20px 20px 0px;
+    padding: 5px;
     
 }
 section {
@@ -200,7 +214,7 @@ aside {
     justify-content:flex-start;
     align-items: flex-end;
     flex-wrap: wrap;
-    padding: 10px;
+    margin: 20px;
     background-color: white;
     border-radius: 10px;
     /* rechercher */
@@ -212,8 +226,6 @@ aside {
     flex-direction: column;
     
     margin: 5px;
-    
-    border: 1px solid black;
     
     font-weight: bolder;
 }
@@ -290,7 +302,8 @@ div h3 {
      font-size: 30px; on garde cette ensemble de balisage jusqu'à etre sûr de n'en avoir pas besoin
 } */
 form span {
-    
+    padding: 5px;
+    margin: 5px;
 }
 div h4 {
     font-size: 20px;
