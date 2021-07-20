@@ -16,7 +16,7 @@ header {
 #marque {
     color: rgb(77, 148, 255);
     font-size: 40px;
-    width: 45%;
+    width: 75%;
     
 }    
 
@@ -80,6 +80,10 @@ main {
 }
 .form {
 font-family: 'Courier New', Courier, monospace;
+}
+#famitest {
+    border: 2px solid #F2F2F2;
+    border-radius: 5%;
 }
 .info {
     display: flex;
