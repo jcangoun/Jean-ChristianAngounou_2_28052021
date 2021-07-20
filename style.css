@@ -81,6 +81,10 @@ main {
 .form {
 font-family: 'Courier New', Courier, monospace;
 }
+.info {
+    display: flex;
+    justify-content: flex-start;
+}
 #search {
     width: 33%;
     background-color: rgb(77, 148, 255);
@@ -188,13 +192,14 @@ aside {
     border-radius: 10px;
     /* rechercher */
 }
-#haside {  
+.haside {  
     display: flex;
+    flex: 55%;
     justify-content: space-around;
     flex-direction: column;
-    padding: 20px;
+    
     margin: 5px;
-    font-size: 20px;
+    
     border: 1px solid black;
     
     font-weight: bolder;
