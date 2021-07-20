@@ -70,8 +70,15 @@ main {
     /*display: flex;
     justify-content: flex-start; */
 }
+.flitr {
+    display: flex;
+}
+.icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
 #eco {
-    
+    display: flex;
     border-radius: 10%;  
 }
 #famil {
@@ -79,7 +86,9 @@ main {
     border-radius: 10%;                               
 }
 .form {
-font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', "Courier", "monospace";
 }
 #famitest {
     border: 2px solid #F2F2F2;
@@ -104,7 +113,7 @@ font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 button {
-    
+    border: none;
     border-radius: 0px 20px 20px 0px;
     
 }
@@ -280,13 +289,16 @@ footer div {
 div h3 {
      font-size: 30px; on garde cette ensemble de balisage jusqu'à etre sûr de n'en avoir pas besoin
 } */
+form span {
+    
+}
 div h4 {
     font-size: 20px;
     
 }
 
 #1 h4 {
-    font-family: "raleway";
+    font-family: "raleway", "Courier", "Sans serif";
 }   
 /*
 .impic {
@@ -364,4 +376,7 @@ opacity: 0.5;
 #li-inscript:visited {
     background-color: red;
     border-top: 5px solid  purple;
+}
+h*, p*, div {
+    font-family: "Raleway";
 }

@@ -28,39 +28,39 @@
                     <form 
                      action="paspret.js.js" method="POST" title="Vous cherchez dans quelle ville?">
                         <!-- <label></label> -->
-                        <span style="font-size: 20px;" id="position"><i class="fas fa-map-marker-alt"></i></span>
+                        <span id="position"><i class="fas fa-map-marker-alt"></i></span>
                         <input type="text" name="villeforsearch" value="Ville, Pays">
                         <button id="search" type="button" value="Rechercher">Rechercher</button>
                     </form>
                 </div>
                 <div class="form" id="filtre">
-                    <form  action="paspret.js" method="POST" title="form">
+                    <form class="filtr"  action="paspret.js" method="POST" title="form">
                         <label>Filtres</label>
 
                         <div id="eco"> <!--  tous les input il faudra les revoir au detail pour savoir pourquoi ils se mettent en column quand tu les assemble avec les bonnes balises -->
-                            <i class="fas fa-money-bill-wave" style="color: #0065FC; background-color: #DEEBFF;" ></i>
+                            <div class="icon">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>                   
                             <input type="text" name="" value="Economique" style="border: 2px solid #DEEBFF;">
-                            <i class="fas fa-child" style="color: rgb(77, 148, 255);"></i>
-                            <input type="text" value="Familial" style="border: 2px solid #DEEBFF;">
-                            <i class="fas fa-heart" style="color: rgb(77, 148, 255);"></i>
-                            <input type="text" value="Romantique">
-                            <i class="fas fa-dog" style="color: rgb(77, 148, 255);"></i>
-                            <input type="text" value="Animaux autorisés">
-                        </div>
-                        <!--
-                                           Organiser les input et autres dans ces id avec ancre
+                        </div>                       
                         <div id="famil">
-                            <div>
-                                
+                            <div class="icon">
+                                <i class="fas fa-child" style="color: rgb(77, 148, 255);"></i>
                             </div>   
-                            
+                            <input type="text" value="Familial" style="border: 2px solid #DEEBFF;">
                         </div>
                         <div id="romant">
-
+                            <div class="icon">
+                                <i class="fas fa-heart" style="color: rgb(77, 148, 255);"></i>
+                            </div>
+                            <input type="text" value="Romantique">
                         </div>
                         <div id="autoriz">
-
-                        </div> -->
+                            <div class="icon">
+                                <i class="fas fa-dog" style="color: rgb(77, 148, 255);"></i>
+                            </div>
+                            <input type="text" value="Animaux autorisés">
+                        </div>
                         
                     </form>
                 </div>
