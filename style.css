@@ -151,9 +151,10 @@ label {
     border-radius: 20px;
 }
 #search {
-    width: 33%;
+    width: 25%;
     background-color: rgb(77, 148, 255);
     color: white;
+    padding: 10px;
 }
 #titre {
     font-weight: bold;
@@ -200,7 +201,6 @@ h2 {
 .phototel {
     flex: 25%;
     width: auto;
-     height:auto;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -461,27 +461,33 @@ h*, p*, div {
 
 .actMars {
     display: flex;
+    justify-content: space-around;
 }
 
-.emplwoan img {
+/* .emplwoan img {
     height: 370px;
-}
+}                                surement une maguouille bizarre*/
 .emplduo img{
 height: 370px;
 
 }
-
+#fgcs1 {
+    height: 370px;
+}
 #fgcd1 {
     height: 175px;
 }
 #fgcd2 {
     height: 175px;
 }
+#fgcs2 {
+    height: 370px;
+}
 #fgcd3 {
-
+    height: 134px;
 }
 #fgcd4 {
-    
+    height: 145px;
 }
 
 
