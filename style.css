@@ -394,9 +394,9 @@ activite-image {
 }
 
 
-figure img {
-    height: 370px;
-}
+/* figure img {
+    height: 370px;     ca domine trop   , du coup petit test
+} */
 
 .picaside img {
     border-radius: 10px 0 0 10px;
@@ -471,11 +471,17 @@ height: 370px;
 
 }
 
-.emplduo #fgcd1 {
+#fgcd1 {
     height: 175px;
 }
-.emplduo #fgcd2 {
+#fgcd2 {
     height: 175px;
+}
+#fgcd3 {
+
+}
+#fgcd4 {
+    
 }
 
 
