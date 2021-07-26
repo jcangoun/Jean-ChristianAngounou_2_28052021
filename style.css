@@ -72,7 +72,7 @@ main {
     
 }
 #filtre {
-    font-size: 30px;
+    
     margin: 10px;
     padding: 5px;
     /*display: flex;
@@ -115,6 +115,16 @@ main {
 .info {
     display: flex;
     justify-content: flex-start;
+}
+.fa-info-circle::before {
+    content: "\f05a";
+    color: white;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 20px;
+    
+    
+}
 }
 #search {
     width: 33%;
@@ -240,6 +250,9 @@ aside {
     color: rgb(77, 148, 255); ;
     display: flex;
     flex-direction: row;
+}
+#grey-star {
+    background-color:#F2F2F2 ;
 }
 footer {
     display: flex;
@@ -403,4 +416,36 @@ opacity: 0.5;
 }
 h*, p*, div {
     font-family: "Raleway";
+}
+
+
+
+
+
+
+
+
+
+
+
+.Pfiltry {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border:1px solid black;
+}
+.filtry {
+    
+    border-radius: 30px;
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+#idfiltry {
+    border: 1px solid green;
+}
+#ecotry {
+    border: 1px solid red;
 }
