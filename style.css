@@ -363,7 +363,9 @@ div h4 {
 }  */
 
 .phototel img {
-    height: 100px;
+    display: flex;
+    height: 110px;
+    width: 33%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
@@ -389,6 +391,11 @@ activite-image {
     object-fit: cover;
 
     border-radius: 10px;
+}
+
+
+figure img {
+    height: 370px;
 }
 
 .picaside img {
@@ -447,11 +454,29 @@ h*, p*, div {
 
 
 .boss {
+    display: flex;
+    flex-direction: column;
     border: 1px solid red;
 }
 
+.actMars {
+    display: flex;
+}
 
+.emplwoan img {
+    height: 370px;
+}
+.emplduo img{
+height: 370px;
 
+}
+
+.emplduo #fgcd1 {
+    height: 175px;
+}
+.emplduo #fgcd2 {
+    height: 175px;
+}
 
 
 .Pfiltry {
