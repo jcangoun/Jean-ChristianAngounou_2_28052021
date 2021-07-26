@@ -53,7 +53,8 @@ form {
     display: flex;
 }
 input {
-    border: 2px solid #F2F2F2;
+    /* border: 2px solid #F2F2F2;   c est temporaire le temps d un test */
+    font-family:'Raleway', Courier, monospace;
 }
 main {
     
@@ -81,24 +82,50 @@ main {
 .flitr {
     display: flex;
 }
-.icon {
-    color: #0065FC;
-    background-color: #DEEBFF;
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 #eco {
     display: flex;
     border-radius: 10%;  
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid #DEEBFF;
 }
+
+.icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+}
+
+#incot {
+    border-radius: 20px;
+    border: 2px solid #DEEBFF;
+}
+
 #famil {
     display: flex;
-    border-radius: 10%;                               
+    border-radius: 10%;  
+    margin: 20px;
+    border-radius: 20px;  
+    border: 2px solid #DEEBFF;                           
 }
 #romant {
     display: flex;
+    margin: 20px;
+    border-radius: 20px;
     border: 2px solid #DEEBFF;
+    
+    
 }
 #autoriz {
     display: flex;
+    margin: 20px;
+    border-radius: 20px;
     border: 2px solid #DEEBFF;
 }
 /*
@@ -122,9 +149,6 @@ main {
     background-color: blue;
     margin: 5px;
     border-radius: 20px;
-    
-    
-}
 }
 #search {
     width: 33%;
@@ -251,8 +275,8 @@ aside {
     display: flex;
     flex-direction: row;
 }
-#grey-star {
-    background-color:#F2F2F2 ;
+#grey-star1-1 {
+    color:#F2F2F2;
 }
 footer {
     display: flex;
@@ -422,7 +446,9 @@ h*, p*, div {
 
 
 
-
+.boss {
+    border: 1px solid red;
+}
 
 
 
