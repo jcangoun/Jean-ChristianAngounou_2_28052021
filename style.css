@@ -65,6 +65,12 @@ main {
 }
 #position {
     color: rgb(77, 148, 255);
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #choix {
     
@@ -218,7 +224,7 @@ padding: 5px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
     border-radius: 10px;
     background-size: cover;
@@ -234,8 +240,8 @@ aside {
     flex-direction: column;
     background-color: rgb(243, 243, 243);
     border: 1px solid #F2F2F2;
-    margin: 5px;
-    padding: 20px;
+    margin: 15px;
+    padding: 40px;
 
     /* 
           width: 40%;
@@ -378,7 +384,7 @@ div h4 {
 .phototel img {
     display: flex;
     height: 110px;
-    width: 35%;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
@@ -483,6 +489,7 @@ h*, p*, div {
 
 .patrouille {
     display: flex;
+    flex: 25%;
     justify-content: space-around;
     flex-direction: column;
     border: 1px solid white;
@@ -500,49 +507,60 @@ height: 370px;
 
 }
 #fgcs1 {
+    width: 100%;
     height: 370px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #pfgcd1 {
 
 }
 #fgcd1 {
-    /* width: 21%; */
-    height: 175px;
+    width: 100%;
+    height: 225px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #pfgcd2 {
 
 }
 #fgcd2 {
+    width: 100%;
     height: 175px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #pfgcs2 {
 
 }
 #fgcs2 {
+    width: 100%;
     height: 370px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #pfgcd3 {
 
 }
 #fgcd3 {
+    width: 100%;
     height: 134px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #pfgcd4 {
 
 }
 #fgcd4 {
+    width: 100%;
     height: 145px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 
