@@ -87,6 +87,7 @@ main {
 .filtr input {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
+    text-align: center;
 }
 label {
     display: flex;
@@ -94,22 +95,28 @@ label {
     align-items: center;
     font-weight: bold;
 }
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
 #eco {
     display: flex;  
     margin: 20px;
     border-radius: 20px;
     border: 2px solid #F2F2F2;
-}
-
-.icon {
-    color: #0065FC;
-    background-color: #F2F2F2;
-    border-radius: 20px;
+    
 }
 
 #incot {
     border-radius: 20px;
     border: 2px solid #F2F2F2;
+    
 }
 
 #famil {
@@ -117,13 +124,15 @@ label {
     border-radius: 10%;  
     margin: 20px;
     border-radius: 20px;  
-    border: 2px solid #F2F2F2;                           
+    border: 2px solid #F2F2F2; 
+    background-color: #DEEBFF;                          
 }
 #romant {
     display: flex;
     margin: 20px;
     border-radius: 20px;
-    border: 2px solid #DEEBFF;
+    border: 2px solid #F2F2F2;
+    background-color: #DEEBFF;
     
     
 }
@@ -131,7 +140,8 @@ label {
     display: flex;
     margin: 20px;
     border-radius: 20px;
-    border: 2px solid #DEEBFF;
+    border: 2px solid #F2F2F2;
+    background-color: #DEEBFF;
 }
 /*
 .form {
@@ -354,8 +364,7 @@ form span {
     margin: 5px;
 }
 div h4 {
-    font-size: 20px;
-    
+    font-weight: normal;
 }
 
 #1 h4 {
