@@ -90,10 +90,14 @@ main {
     display: flex;
 }
 
-.filtr input {
+.filtr input {                      /*  faire les meme actions que avec les */
     border: 2px solid #F2F2F2;
     border-radius: 20px;
     text-align: center;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
 }
 label {
     display: flex;
@@ -111,12 +115,22 @@ label {
     height: 40px;
     width: 40px;
 }
+input {
+    z-index:0;
+}
 #eco {
     display: flex;  
     margin: 20px;
     border-radius: 20px;
     border: 2px solid #F2F2F2;
     
+}
+
+#autocon {
+border-left: none;
+    border-right: none;
+    border-top: none;
+        border-bottom: none;
 }
 
 #incot {
@@ -131,23 +145,37 @@ label {
     margin: 20px;
     border-radius: 20px;  
     border: 2px solid #F2F2F2; 
-    background-color: #DEEBFF;                          
+                             
+}
+
+#famcon {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
 }
 #romant {
     display: flex;
     margin: 20px;
     border-radius: 20px;
     border: 2px solid #F2F2F2;
-    background-color: #DEEBFF;
-    
+       
     
 }
+
+#romcon {
+
+}
+
 #autoriz {
     display: flex;
     margin: 20px;
     border-radius: 20px;
     border: 2px solid #F2F2F2;
-    background-color: #DEEBFF;
+    
+}
+#autocon {
+    
 }
 /*
 .form {
@@ -581,6 +609,7 @@ height: 370px;
 }
 #idfiltry {
     border: 1px solid green;
+     
 }
 #ecotry {
     border: 1px solid red;
