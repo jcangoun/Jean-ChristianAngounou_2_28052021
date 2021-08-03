@@ -73,6 +73,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px 0 0 15px;
 }
 #choix {
     
@@ -117,17 +118,19 @@ label {
     height: 40px;
     width: 40px;
 }
+
 input {
     z-index:0;
+    font-weight: bolder;
 }
 #eco {
     display: flex;  
     margin: 20px;
     border-radius: 30px;
     border: 2px solid #F2F2F2;
-    
-    
+       
 }
+
 
 #autocon {
 border-left: none;
@@ -204,6 +207,10 @@ border-left: none;
     margin: 5px;
     border-radius: 20px;
 }
+#insearch {
+    border: 1px solid #F2F2F2;
+}
+
 #search {
     width: 25%;
     background-color: rgb(77, 148, 255);
@@ -221,7 +228,7 @@ border-left: none;
 }
 button {
     border: none;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 15px 15px 0px;
     padding: 5px;
     
 }
@@ -251,6 +258,7 @@ padding: 5px;
     display: flex;
     flex: 60%;
     flex-direction: column;
+    margin-left: 45px;
     
 }
 .phototel {
@@ -262,7 +270,7 @@ padding: 5px;
     flex-direction: column;
     margin: 15px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 1px 1px 20px 1px grey;
@@ -272,13 +280,14 @@ padding: 5px;
 aside {
     border-radius: 20px;
     flex: 20%;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(243, 243, 243);
     border: 1px solid #F2F2F2;
     margin-left: 15px;
-    padding: 40px;
+    margin-right: 45px;
+    padding-right: 40px;
+    padding-left: 40px;
 
     /* 
           width: 40%;
@@ -309,7 +318,6 @@ aside {
     margin: 30px;
     background-color: white;
     border-radius: 20px;
-    border: 1px solid;
     box-shadow: 1px 1px 20px 1px grey;  
     /* rechercher */
 }
@@ -317,7 +325,7 @@ aside {
     flex: 40%;
 }
 .haside {  
-    /* display: flex; */
+    display: flex;
     flex: 60%;
     /* justify-content: space-around; */
     flex-direction: column;
@@ -333,11 +341,11 @@ aside {
     margin: 10px;
 }
 #greystar101 {
-    border: 2px solid black;
+    border: 2px solid #F2F2F2;
     color:#F2F2F2;
 }
 
-.star #greystar * {
+.star #greystar {
     color: #f2f2f2;
 }
 footer {
@@ -409,7 +417,6 @@ div h3 {
 } */
 form span {
     padding: 5px;
-    margin: 5px;
 }
 div h4 {
     font-weight: normal;
@@ -428,7 +435,7 @@ div h4 {
     height: 110px;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
     
 }
 
@@ -599,6 +606,14 @@ figcaption {
     height: 175px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+}
+
+#soupatrouill {
+    box-shadow: 1px 1px 20px 0px grey;
+}
+.soupatrouill {
+    box-shadow: 1px 1px 20px 0px grey;
+    border-radius: 20px;
 }
 
 /* #pfgcs2 {
