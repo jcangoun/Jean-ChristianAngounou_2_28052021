@@ -185,12 +185,13 @@ border-left: none;
     
 } */
 
-/*
+
 .form {
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', "Courier", "monospace";   on dirait que ce .form ne marche pas 
-} */
+    font-family: 'Courier New', "Courier", "monospace";
+    margin-left: 50px;
+}
 
 #famitest {
     border: 2px solid #F2F2F2;
@@ -282,6 +283,10 @@ h3 {
 h4 {
     margin: 5px;
 }
+
+figcaption .soustitre {
+    margin: 5px 10px 10px 10px;
+}
 .soustitre {
     font-weight: bolder;
 }
@@ -332,6 +337,7 @@ aside {
 }
 .populaireaside {
     flex: 40%;
+    margin: 5px;
 }
 .haside {  
     display: flex;
@@ -354,7 +360,7 @@ aside {
     color:#F2F2F2;
 }
 
-.star #greystar {
+.inactive {
     color: #f2f2f2;
 }
 footer {
@@ -480,7 +486,7 @@ activite-image {
 } */
 
 .picaside img {
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -560,7 +566,9 @@ h*, p*, div {
     margin: 30px;
  }
  .emplwoan {
-     
+    
+     flex: 100%;
+    margin: 0;
  }
 
 /* .emplwoan img {
