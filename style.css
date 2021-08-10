@@ -230,7 +230,8 @@ border-left: none;
 #vilnatur {
     color: black;
     font-weight: normal;
-    margin: 5px;
+    margin-bottom: 15px;
+    margin-right: 1px;
 }
 button {
     border: none;
@@ -502,55 +503,55 @@ activite-image {
 }
 
 #li-heb {
-    margin: 40px;
+    padding: 40px;
 }
 #li-heb:active {
-    color: #0065FC;
+   
 }
 #li-heb:hover {
 
 border-top: 5px solid  #0065FC;
 
-opacity: 0.5;
+
 
 }
 #li-heb:visited {
     background-color: red;
     opacity: 0.5;
     border-top: 5px solid  #0065FC;
-    border-bottom: purple;
+    
 }
 
 #li-activ {
-    margin: 40px;
+    padding: 40px;
 }
 #li-activ:active {
 
     border-top: 5px solid  #0065FC;
+    
 }
 #li-activ:hover {
 
     border-top: 5px solid  #0065FC;
 }
 #li-activ:visited {
-    background-color: red;
-    border-top: 5px solid  purple;
+    
 }
 
 #li-inscript {
-    margin: 40px;
+    padding: 40px;
 }
 #li-inscript:active {
 
     border-top: 5px solid  green;
+    
 }
 #li-inscript:hover {
 
     border-top: 5px solid  #0065FC;
 }
 #li-inscript:visited {
-    background-color: red;
-    border-top: 5px solid  purple;
+    
 }
 h*, p*, div {
     font-family: "Raleway";
