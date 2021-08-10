@@ -27,7 +27,7 @@ header {
 
 .nav-up {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
     
@@ -191,7 +191,6 @@ border-left: none;
     display: flex;
     flex-direction: column;
     font-family: 'Courier New', "Courier", "monospace";
-    margin-left: 50px;
 }
 
 #famitest {
@@ -231,7 +230,7 @@ border-left: none;
 #vilnatur {
     color: black;
     font-weight: normal;
-    font-size: 30px;
+    margin: 5px;
 }
 button {
     border: none;
@@ -292,6 +291,7 @@ h4 {
 
 figcaption .soustitre {
     margin: 5px 10px 10px 10px;
+
 }
 .soustitre {
     font-weight: bolder;
@@ -500,6 +500,10 @@ activite-image {
     height: 100%;
     object-fit: cover;
 }
+
+#li-heb {
+    margin: 40px;
+}
 #li-heb:active {
     color: #0065FC;
 }
@@ -513,13 +517,16 @@ opacity: 0.5;
 #li-heb:visited {
     background-color: red;
     opacity: 0.5;
-    border-top: 5px solid  purple;
+    border-top: 5px solid  #0065FC;
     border-bottom: purple;
 }
 
+#li-activ {
+    margin: 40px;
+}
 #li-activ:active {
 
-    border-top: 5px solid  green;
+    border-top: 5px solid  #0065FC;
 }
 #li-activ:hover {
 
@@ -528,6 +535,10 @@ opacity: 0.5;
 #li-activ:visited {
     background-color: red;
     border-top: 5px solid  purple;
+}
+
+#li-inscript {
+    margin: 40px;
 }
 #li-inscript:active {
 
@@ -610,6 +621,7 @@ height: 370px;
 figcaption {
     margin-left: 15px;
     margin-top: 5px;
+    margin-bottom: 10px
 }
 
 /* #pfgcd1 {
