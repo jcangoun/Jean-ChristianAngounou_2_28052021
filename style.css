@@ -21,6 +21,7 @@ header {
     color: rgb(77, 148, 255);
     font-size: 40px;
     width: 75%;
+    margin-left: 50px;
     
 }    
 
@@ -200,6 +201,7 @@ border-left: none;
 .info {
     display: flex;
     justify-content: flex-start;
+    margin-left: 50px;
 }
 .fa-info-circle::before {
     content: "\f05a";
@@ -218,6 +220,10 @@ border-left: none;
     color: white;
     padding: 10px;
 }
+.section {
+    margin-left: 50px;
+}
+
 #titre {
     font-weight: bold;
     
@@ -632,6 +638,10 @@ figcaption {
     box-shadow: 1px 1px 20px 0px grey;
 }
 .soupatrouill {
+    box-shadow: 1px 1px 20px 0px grey;
+    border-radius: 20px;
+}
+#sou2patrouill {
     box-shadow: 1px 1px 20px 0px grey;
     border-radius: 20px;
 }
