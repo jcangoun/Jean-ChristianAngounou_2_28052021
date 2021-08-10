@@ -1,8 +1,12 @@
-
+* { 
+    margin: 0px;
+    padding: 0px;
+}
     body {
     font-family: 'Raleway', Courier, monospace;
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 0
 }
 
 /*   h3{
@@ -22,6 +26,8 @@ header {
     font-size: 40px;
     width: 75%;
     margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }    
 
@@ -502,55 +508,20 @@ activite-image {
     object-fit: cover;
 }
 
-#li-heb {
+.li {
+
     padding: 40px;
+    border-top: 5px solid  transparent;
+    margin-top: 0;
 }
-#li-heb:active {
+.li:active {
    
 }
-#li-heb:hover {
-
-border-top: 5px solid  #0065FC;
-
-
-
-}
-#li-heb:visited {
-    background-color: red;
-    opacity: 0.5;
-    border-top: 5px solid  #0065FC;
-    
-}
-
-#li-activ {
-    padding: 40px;
-}
-#li-activ:active {
-
-    border-top: 5px solid  #0065FC;
-    
-}
-#li-activ:hover {
-
+.li:hover {
     border-top: 5px solid  #0065FC;
 }
-#li-activ:visited {
-    
-}
 
-#li-inscript {
-    padding: 40px;
-}
-#li-inscript:active {
-
-    border-top: 5px solid  green;
-    
-}
-#li-inscript:hover {
-
-    border-top: 5px solid  #0065FC;
-}
-#li-inscript:visited {
+.li:visited {
     
 }
 h*, p*, div {
