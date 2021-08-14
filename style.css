@@ -1,7 +1,7 @@
-* { 
+/* * { 
     margin: 0px;
     padding: 0px;
-}
+} */
     body {
     font-family: 'Raleway', Courier, monospace;
     margin-left: 2%;
@@ -15,6 +15,11 @@
 
 h1 {
     font-weight: bold;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 header {
     display: flex;

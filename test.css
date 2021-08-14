@@ -1,0 +1,16 @@
+
+/* * {
+
+} */
+
+body {
+    font-family: 'Raleway', Courier, monospace;
+
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
