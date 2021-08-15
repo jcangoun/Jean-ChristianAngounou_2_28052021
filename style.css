@@ -47,11 +47,7 @@ header {
     
     
 }
-#hebrgmars {
-    flex: 100%;
-    font-size: 20px;
-    padding: 25px 25px 1px;
-}
+
 .nav-up li {
     display: flex;
     justify-content: space-around;
@@ -63,6 +59,12 @@ header {
     padding: 20px;
 
 }
+#hebrgmars {
+    flex: 100%;
+    font-size: 20px;
+    padding: 25px 25px 1px;
+}
+
 form {
     display: flex;
 }
@@ -101,7 +103,7 @@ main {
     /*display: flex;
     justify-content: flex-start; */
 }
-.flitr {
+.filtr {
     display: flex;
 }
 
