@@ -49,15 +49,21 @@ main {
 #choix {
 
 }
-
+form {
+    display: flex;
+}
 #position {
-
+    background-color: #F2F2F2;
 }
 #insearch {
 
 }
 #search {
-
+    border: 1px solid #F2F2F2;
+    border-radius: 0px 10px 10px 0;
+    border-left: none;
+    background-color: skyblue;
+    color: white;
 }
 #filtre {
     /* display: flex; */    
@@ -123,6 +129,9 @@ label{
  .phototel {
 
  }
+ .phototel img {
+
+ }
 
  .impic {
 
@@ -143,7 +152,10 @@ label{
 
  }
  #popul {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
  }
  #courb {
 
