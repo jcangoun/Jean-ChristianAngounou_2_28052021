@@ -33,7 +33,8 @@ main {
 
 }
 .section {
-
+    display: flex;
+    flex-direction: column;
 }
 
 #titre {
@@ -63,7 +64,9 @@ main {
     /* On dirait que a cause du id filtre plus bas ceci ne marche pas */
 }
 .filtr {
-
+    display: flex;
+    justify-content: flex-start;
+    
 }
 .filtr input {
 
@@ -131,5 +134,20 @@ label{
 
  }
  .inactive {
-     
+
+ }
+ #afich {
+
+ }
+ aside {
+
+ }
+ #popul {
+
+ }
+ #courb {
+
+ }
+ .gaside {
+
  }
