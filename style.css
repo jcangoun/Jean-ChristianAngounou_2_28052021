@@ -79,7 +79,6 @@ main {
     
 }
 #position {
-    color: rgb(77, 148, 255);
     background-color: #F2F2F2;
     height: 40px;
     width: 40px;
@@ -227,12 +226,13 @@ border-left: none;
 
 #search {
     width: 25%;
-    background-color: rgb(77, 148, 255);
+    background-color: #0065FC;
     color: white;
     padding: 10px;
 }
 .section {
     margin-left: 40px;
+    font-weight: bolder;
 }
 
 #titre {
@@ -364,7 +364,7 @@ aside {
     font-weight: bolder;
 }
 .star {
-    color: rgb(77, 148, 255); ;
+    color: #0065FC ;
     display: flex;
     flex-direction: row;
     margin: 10px;
@@ -510,10 +510,11 @@ activite-image {
 }
 
 .li {
-
+    
     padding: 40px;
     border-top: 5px solid  transparent;
     margin-top: 0;
+    color: #0065FC;
 }
 /* .li:active {
    
@@ -686,4 +687,25 @@ figcaption {
 }
 #ecotry {
     border: 1px solid red;
+}
+
+/* ci dessous tailles iphone8*/
+@media screen (min-width: 375px) and (max-width: 1024px) {
+    
+}
+/*  Fin tailles iphone8*/
+
+
+
+
+
+
+
+
+
+
+
+/*  ci dessous tailles IPAD*/
+@media screen (min-width: 1024px) and (max-width: 1440px) {
+    
 }
