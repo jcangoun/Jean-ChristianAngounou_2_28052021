@@ -63,7 +63,7 @@ header {
     flex: 100%;
     font-size: 20px;
     padding: 25px 30px 1px;
-
+}
 form {
     display: flex;
 }
@@ -296,15 +296,15 @@ padding: 5px;
     box-shadow: 1px 1px 20px 1px grey;
 }
 
-h3 {
-    /* margin: 5px; */
+/* h3 {
+
 }
 h4 {
-    /* margin: 5px; */
-}
+    
+} */
 
 figcaption .soustitre {
-    /* margin: 5px 10px 10px 10px; */
+    margin: 5px 10px 10px 10px;
 
 }
 .soustitre {
@@ -331,11 +331,11 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 20px;
+    margin: 30px;
 }
 
 #courb {
-    /* margin: 5px; */
+    margin: 5px;
 }
 .gaside {               /* probleme de longueur de texte qui du coup le met verticalement décalé*/
     width: auto;
@@ -391,7 +391,7 @@ footer {
     display: flex;
     
     flex-direction: column;
-    /* margin-top: 45px; */
+    
 }
 
 .contactiv {
@@ -515,16 +515,16 @@ activite-image {
     border-top: 5px solid  transparent;
     margin-top: 0;
 }
-.li:active {
+/* .li:active {
    
-}
+} */
 .li:hover {
     border-top: 5px solid  #0065FC;
 }
 
-.li:visited {
+/* .li:visited {
     
-}
+} */
 h*, p*, div {
     font-family: "Raleway";
 }
@@ -540,12 +540,12 @@ h*, p*, div {
 }
 
 #hbm {
-    /* margin-left: 50px; */
+    margin-bottom: 20px;
  }
 .actMars {
     display: flex;
     justify-content: space-around;
-    /* margin: 20px; */
+    
     }
 
 .patrouille {
