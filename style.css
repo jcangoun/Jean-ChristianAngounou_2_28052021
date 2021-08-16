@@ -62,8 +62,7 @@ header {
 #hebrgmars {
     flex: 100%;
     font-size: 20px;
-    padding: 25px 25px 1px;
-}
+    padding: 25px 30px 1px;
 
 form {
     display: flex;
