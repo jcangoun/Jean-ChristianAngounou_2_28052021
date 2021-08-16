@@ -1,12 +1,12 @@
 /* * { 
     margin: 0px;
     padding: 0px;
-} */
+} */  /* ca je ne touche pas a part si aucune margin n'est resolue.*/
     body {
     font-family: 'Raleway', Courier, monospace;
-    margin-left: 2%;
+    /* margin-left: 2%;
     margin-right: 2%;
-    margin-top: 0
+    margin-top: 0; */
 }
 
 /*   h3{
@@ -30,8 +30,8 @@ header {
     color: rgb(77, 148, 255);
     font-size: 40px;
     width: 75%;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
     margin-bottom: 50px;
     
 }    
@@ -54,8 +54,8 @@ header {
     /* text-decoration-line:  ; 
     on dirait que le <li/> n'a pas de underline eraser  ces nav-up li sont chzanés donc en "nav up p" */
     color: rgb(77, 148, 255);
-    margin-left: 5px;
-    margin-right: 5px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
     padding: 20px;
 
 }
@@ -75,7 +75,7 @@ input {
 }
 main {
     
-    margin: 5px;
+    /* margin: 5px; */
     width: auto;
     
 }
@@ -98,7 +98,7 @@ main {
 }
 #filtre {
     
-    margin: 10px;
+    /* margin: 10px; */
     padding: 5px;
     /*display: flex;
     justify-content: flex-start; */
@@ -213,7 +213,7 @@ border-left: none;
 .info {
     display: flex;
     justify-content: flex-start;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .fa-info-circle::before {
     content: "\f05a";
@@ -233,7 +233,7 @@ border-left: none;
     padding: 10px;
 }
 .section {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 #titre {
@@ -243,8 +243,8 @@ border-left: none;
 #vilnatur {
     color: black;
     font-weight: normal;
-    margin-bottom: 15px;
-    margin-right: 1px;
+    /* margin-bottom: 15px;
+    margin-right: 1px; */
 }
 button {
     border: none;
@@ -274,12 +274,13 @@ padding: 5px;
 }
 #gdpic {
     background-color: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     flex: 60%;
     flex-direction: column;
-    margin-left: 45px;
-    
+    /* margin-left: 45px;                             #gdpic        faut revenir ici traiter ca probleme de taille */
+    margin: 20px;
+    padding: 20px;
 }
 .phototel {
     flex: 25%;
@@ -288,23 +289,23 @@ padding: 5px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 15px;
+    margin: 20px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 30px;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 1px 1px 20px 1px grey;
 }
 
 h3 {
-    margin: 5px;
+    /* margin: 5px; */
 }
 h4 {
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 figcaption .soustitre {
-    margin: 5px 10px 10px 10px;
+    /* margin: 5px 10px 10px 10px; */
 
 }
 .soustitre {
@@ -312,26 +313,19 @@ figcaption .soustitre {
 }
 
 aside {
-    border-radius: 20px;
+    border-radius: 30px;
     flex: 20%;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(243, 243, 243);
+    background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
-    margin-left: 15px;
-    margin-right: 45px;
-    padding-right: 40px;
-    padding-left: 40px;
-
-    /* 
-          width: 40%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(243, 243, 243);
-
-    tout ca c'est l'element davant un peu semblable
-    */
+    /* margin-left: 15px;
+    margin-right: 45px; */
+    margin: 20px;
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    padding: 30px;
+    
 }
 #popul {
     font-weight: bold;
@@ -342,7 +336,7 @@ aside {
 }
 
 #courb {
-    margin: 5px;
+    /* margin: 5px; */
 }
 .gaside {               /* probleme de longueur de texte qui du coup le met verticalement décalé*/
     width: auto;
@@ -350,8 +344,9 @@ aside {
 .picaside {
     display: flex;
     margin: 30px;
+    /* margin: 15px; */
     background-color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 1px 1px 20px 1px grey;  
     /* rechercher */
 }
@@ -365,7 +360,7 @@ aside {
     /* justify-content: space-around; */
     flex-direction: column;
     
-    margin: 5px;
+    margin: 20px;
     
     font-weight: bolder;
 }
@@ -386,18 +381,18 @@ aside {
 footer {
     display: flex;
     justify-content: space-around;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-right: 300px;
-    padding-bottom: 45px;
+    
+    margin: 10px 0 0 0;
+    padding: 50px 300px 50px 50px;
     background-color:#f2f2f2;
+    
 
 }
 .footcat {
     display: flex;
     
     flex-direction: column;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 
 .contactiv {
@@ -473,7 +468,7 @@ div h4 {
     height: 110px;
     width: 100%;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 30px 30px 0 0;
     
 }
 
@@ -509,7 +504,7 @@ activite-image {
 } */
 
 .picaside img {
-    border-radius: 20px 0 0 20px;
+    border-radius: 30px 0 0 30px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -542,16 +537,16 @@ h*, p*, div {
 .boss {
     display: flex;
     flex-direction: column;
-   
+    padding: 30px;
 }
 
 #hbm {
-    margin-left: 50px;
+    /* margin-left: 50px; */
  }
 .actMars {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    /* margin: 20px; */
     }
 
 .patrouille {
@@ -562,7 +557,7 @@ h*, p*, div {
     
     border-radius: 20px;
     height: 422px;
-    margin: 30px;
+    /* margin: 30px; */
  }
  .emplwoan {
     
