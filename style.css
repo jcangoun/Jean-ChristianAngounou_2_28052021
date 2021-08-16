@@ -5,8 +5,8 @@
     body {
     font-family: 'Raleway', Courier, monospace;
     /* margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 0; */
+    margin-right: 2%; */
+    margin-top: 0;
 }
 
 /*   h3{
@@ -691,10 +691,11 @@ figcaption {
 
 /* ci dessous tailles iphone8*/
 @media screen (min-width: 375px) and (max-width: 1024px) {
-    
-}
 /*  Fin tailles iphone8*/
-
+body {
+    border: 1px solid red;
+    }
+}
 
 
 
