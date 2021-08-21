@@ -1,7 +1,7 @@
-/* * { 
-    margin: 0px;
-    padding: 0px;
-} */  /* ca je ne touche pas a part si aucune margin n'est resolue.*/
+* { 
+    margin: 0;
+    padding: 0;
+}  
     body {
     font-family: 'Raleway', Courier, monospace;
     /* margin-left: 2%;
@@ -521,6 +521,7 @@ activite-image {
 } */
 .li:hover {
     border-top: 5px solid  #0065FC;
+    margin-top: 0px;
 }
 
 /* .li:visited {
@@ -689,24 +690,3 @@ figcaption {
     border: 1px solid red;
 }
 
-/* ci dessous tailles iphone8*/
-@media screen (min-width: 375px) and (max-width: 1024px) {
-/*  Fin tailles iphone8*/
-body {
-    border: 1px solid red;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-/*  ci dessous tailles IPAD*/
-@media screen (min-width: 1024px) and (max-width: 1440px) {
-    
-}
