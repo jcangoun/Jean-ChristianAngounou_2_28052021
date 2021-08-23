@@ -45,7 +45,7 @@ header {
     
 }
 
-.nav-up li {
+.nav-up li { /*  ici il faudra rectifier que 'cest " .nav-up .li" et non "nav-up li" */
     display: flex;
     justify-content: space-around;
     /* text-decoration-line:  ; 
@@ -703,8 +703,11 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    font-family: 'Raleway', Courier, monospace;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 0;
+    font-family: 'Raleway', Courier, monospace;
+    
     }
 
 #marque {
@@ -716,7 +719,7 @@ header {
     }
 
 .nav-up .li {
-
+    padding: 40px 30px;
     }
 
 .li {
