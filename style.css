@@ -223,6 +223,7 @@ border-left: none;
 
 #search {
     width: 25%;
+    min-width: 105px;
     background-color: #0065FC;
     color: white;
     padding: 10px;
@@ -511,7 +512,7 @@ activite-image {
     padding: 40px;
     border-top: 5px solid  transparent;
     margin-top: 0;
-    color: #0065FC;
+    
 }
 /* .li:active {
    
@@ -519,6 +520,7 @@ activite-image {
 .li:hover {
     border-top: 5px solid  #0065FC;
     margin-top: 0px;
+    color: #0065FC;
 }
 
 /* .li:visited {
@@ -544,6 +546,7 @@ h*, p*, div {
 .actMars {
     display: flex;
     justify-content: space-around;
+    
     
     }
 
@@ -664,7 +667,7 @@ figcaption {
 }
 
 
-.Pfiltry {
+/* .Pfiltry {
     
     display: flex;
     flex-direction: row;
@@ -685,5 +688,191 @@ figcaption {
 }
 #ecotry {
     border: 1px solid red;
-}
+} */
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+
+body {
+    /* display: flex; */
+    margin: 0;
+    border: 1px solid orange;
+
+    }
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', Courier, monospace;
+    margin-top: 0;
+    }
+
+#marque {
+
+    }
+
+.nav-up {
+
+    }
+
+.nav-up .li {
+
+    }
+
+.li {
+
+    }
+main {
+
+    }
+.section {
+    margin: 20px;
+    }
+#titre {
+
+    }
+#vilnatur {
+
+    }
+.form {
+
+    }    
+#choix {
+
+    }
+
+    #position {
+        background-color: #F2F2F2;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px 0 0 15px;
+    }
+
+#insearch {
+
+}   
+#search {
+
+} 
+
+#filtre {
+
+    }
+.filtr {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+label {
+
+    }
+#eco {
+
+    }
+.icon {
+
+    }
+
+#autocon {
+
+    }
+#famil {
+
+    }
+
+#famcon {
+
+    }    
+    
+#romant {
+
+    }
+
+#romcon {
+
+    }
+
+#autoriz {
+
+    }
+
+#autocon {
+
+    }    
+
+.info {
+
+    }
+
+.pilier {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    }    
+
+#gdpic {
+
+    }
+
+#hbrgmars {
+
+    }
+#grp-pic {
+
+    }
+
+.phototel {
+
+    }
+
+.soustitre {
+
+    }
+.star {
+
+    }
+aside {
+
+    }
+#popul {
+
+    }
+
+#courb {
+
+    }
+.gaside {
+
+    }
+.picaside {
+
+    }
+.populaireaside {
+
+    }
+figure {
+
+    }
+figure img {
+
+    }
+.haside {
+
+    }
+
+.boss {
+
+    }
+#hbm {
+
+    }
+
+.actMars {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    }
+}
