@@ -1,8 +1,9 @@
-
+ * {
+     margin: 0;
+     padding: 0;
+ }
     body {
     font-family: 'Raleway', Courier, monospace;
-    /* margin-left: 2%;
-    margin-right: 2%; */
     margin-top: 0;
 }
 
@@ -560,6 +561,10 @@ h*, p*, div {
     height: 422px;
     /* margin: 30px; */
  }
+
+ .patrouille:nth-child(-n+3) {
+     margin: 0 40px 0 0;
+ }
  .emplwoan {
     
      flex: 100%;
@@ -577,6 +582,12 @@ h*, p*, div {
     box-shadow: 2px 2px 13px 0px grey;
     border-bottom-color: #F2F2F2;
 }
+
+
+.emplduo:first-child {
+    margin: 0 0 40px 0; /* margin-bottom zero pour le premier element*/
+}
+
 
 .emplduo img{
 height: 370px;
@@ -644,9 +655,10 @@ figcaption {
     object-fit: cover;
 }
 
-/* #pfgcd3 {
-
-} */
+#pfgcd3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
 #fgcd3 {
     width: 100%;
@@ -724,6 +736,9 @@ header {
 
 .li {
 
+    }
+    #litroi {
+        order: -1;
     }
 main {
 
