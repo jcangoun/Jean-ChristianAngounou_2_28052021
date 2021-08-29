@@ -4,6 +4,7 @@
  }
     body {
     font-family: 'Raleway', Courier, monospace;
+    padding: 50px;
     margin-top: 0;
 }
 
@@ -214,7 +215,7 @@ border-left: none;
 .fa-info-circle::before {
     content: "\f05a";
     color: white;
-    background-color: blue;
+    background-color: #0065FC;
     margin: 5px;
     border-radius: 20px;
 }
@@ -275,6 +276,8 @@ padding: 5px;
     border-radius: 30px;
     display: flex;
     flex: 60%;
+    max-width: 1400px;
+    max-height: 1884px;
     flex-direction: column;
     /* margin-left: 45px;                             #gdpic        faut revenir ici traiter ca probleme de taille */
     margin: 20px;
@@ -287,6 +290,7 @@ padding: 5px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+   
     margin: 20px;
     padding: 5px;
     border-radius: 30px;
@@ -317,13 +321,12 @@ aside {
     flex-direction: column;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
-    /* margin-left: 15px;
-    margin-right: 45px; */
+    max-width: 420px;
+    max-height: 625px;
     margin: 20px;
-    /* padding-right: 40px;
-    padding-left: 40px; */
-    padding: 30px;
     
+    /* padding: 30px; caché temporairement */
+    padding: 5px;
 }
 #popul {
     font-weight: bold;
@@ -342,9 +345,10 @@ aside {
 .picaside {
     display: flex;
     margin: 30px;
+    height: 145px;
     /* margin: 15px; */
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 1px 1px 20px 1px grey;  
     /* rechercher */
 }
@@ -355,7 +359,8 @@ aside {
 .haside {  
     display: flex;
     flex: 60%;
-    /* justify-content: space-around; */
+    margin: 15px;
+    justify-content: space-around;
     flex-direction: column;
     
     margin: 20px;
@@ -502,7 +507,7 @@ activite-image {
 } */
 
 .picaside img {
-    border-radius: 30px 0 0 30px;
+    border-radius: 20px 0 0 20px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -513,15 +518,16 @@ activite-image {
     padding: 40px;
     border-top: 5px solid  transparent;
     margin-top: 0;
-    
+    color: #0065FC;
 }
-/* .li:active {
+.li:active {
    
-} */
+}
 .li:hover {
     border-top: 5px solid  #0065FC;
     margin-top: 0px;
     color: #0065FC;
+    
 }
 
 /* .li:visited {
@@ -704,193 +710,189 @@ figcaption {
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
+/* 
+    body {
+       
+        margin: 0;
+        padding: 0;
+        border: 1px solid orange;
 
-body {
-    /* display: flex; */
-    margin: 0;
-    border: 1px solid orange;
+        }
 
-    }
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0;
-    font-family: 'Raleway', Courier, monospace;
-    
-    }
-
-#marque {
-
-    }
-
-.nav-up {
-
-    }
-
-.nav-up .li {
-    padding: 40px 30px;
-    }
-
-.li {
-
-    }
-    #litroi {
-        order: -1;
-    }
-main {
-
-    }
-.section {
-    margin: 20px;
-    }
-#titre {
-
-    }
-#vilnatur {
-
-    }
-.form {
-
-    }    
-#choix {
-
-    }
-
-    #position {
-        background-color: #F2F2F2;
-        height: 40px;
-        width: 40px;
+    header {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        border-radius: 15px 0 0 15px;
-    }
+        flex-wrap: wrap;
+        margin-top: 0;
 
-#insearch {
+        }
 
-}   
-#search {
+    .nav-up {
 
-} 
+        }
 
-#filtre {
+    .nav-up .li {
+        padding: 40px 30px;
+        }
 
-    }
-.filtr {
-    display: flex;
-    flex-wrap: wrap;
-    }
+    .li {
 
-label {
+        }
+        #litroi {
+            order: -1;
+        }
+    main {
 
-    }
-#eco {
+        }
+    .section {
+        margin: 20px;
+        }
+    #titre {
 
-    }
-.icon {
+        }
+    #vilnatur {
 
-    }
+        }
+    .form {
 
-#autocon {
+        }    
+    #choix {
 
-    }
-#famil {
+        }
 
-    }
+        #position {
+            background-color: #F2F2F2;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 0 0 15px;
+        }
 
-#famcon {
+    #insearch {
 
-    }    
-    
-#romant {
+    }   
+    #search {
 
-    }
+    } 
 
-#romcon {
+    #filtre {
 
-    }
+        }
+    .filtr {
+        display: flex;
+        flex-wrap: wrap;
+        }
 
-#autoriz {
+    label {
 
-    }
+        }
+    #eco {
 
-#autocon {
+        }
+    .icon {
 
-    }    
+        }
 
-.info {
+    #autocon {
 
-    }
+        }
+    #famil {
 
-.pilier {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    }    
+        }
 
-#gdpic {
+    #famcon {
 
-    }
+        }    
+        
+    #romant {
 
-#hbrgmars {
+        }
 
-    }
-#grp-pic {
+    #romcon {
 
-    }
+        }
 
-.phototel {
+    #autoriz {
 
-    }
+        }
 
-.soustitre {
+    #autocon {
 
-    }
-.star {
+        }    
 
-    }
-aside {
+    .info {
 
-    }
-#popul {
+        }
 
-    }
+    .pilier {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        }    
 
-#courb {
+    #gdpic {
 
-    }
-.gaside {
+        }
 
-    }
-.picaside {
+    #hbrgmars {
 
-    }
-.populaireaside {
+        }
+    #grp-pic {
 
-    }
-figure {
+        }
 
-    }
-figure img {
+    .phototel {
 
-    }
-.haside {
+        }
 
-    }
+    .soustitre {
 
-.boss {
+        }
+    .star {
 
-    }
-#hbm {
+        }
+    aside {
 
-    }
+        }
+    #popul {
 
-.actMars {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    }
+        }
+
+    #courb {
+
+        }
+    .gaside {
+
+        }
+    .picaside {
+
+        }
+    .populaireaside {
+
+        }
+    figure {
+
+        }
+    figure img {
+
+        }
+    .haside {
+
+        }
+
+    .boss {
+
+        }
+    #hbm {
+
+        }
+
+    .actMars {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        } */
 }
