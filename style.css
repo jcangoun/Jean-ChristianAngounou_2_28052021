@@ -4,7 +4,7 @@
  }
     body {
     
-    font-family: 'Raleway', Courier, monospace;
+    font-family: 'Raleway';
     padding: 0 50px 0 50px;
     margin-top: 0;
 }
@@ -304,12 +304,8 @@ padding: 5px;
     box-shadow: 1px 1px 20px 1px grey;
 }
 
-/* h3 {
 
-}
-h4 {
-    
-} */
+
 
 figcaption .soustitre {
     margin: 5px 10px 10px 10px;
@@ -338,12 +334,14 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 30px;
+    margin: 40px;
 }
 
 #courb {
     margin: 5px;
+    font-size: 25px;
 }
+
 .gaside {               /* probleme de longueur de texte qui du coup le met verticalement décalé*/
     width: auto;
 }
@@ -465,9 +463,7 @@ div h4 {
     font-weight: normal;
 }
 
-#1 h4 {
-    font-family: "raleway", "Courier", "Sans serif";
-}   
+  
 /*
 .impic {
               /* la suite de la mission là sera de créer toute les config pour cette impic mais aussi créer les autres classs imaside et immars
@@ -542,7 +538,7 @@ activite-image {
 /* .li:visited {
     
 } */
-h*, p*, div {
+h*, p*, div, label {
     font-family: "Raleway";
 }
 
@@ -564,6 +560,7 @@ h*, p*, div {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    max-width: 1440px;
 
     
     
