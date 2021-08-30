@@ -3,8 +3,9 @@
      padding: 0;
  }
     body {
+    
     font-family: 'Raleway', Courier, monospace;
-    padding: 50px;
+    padding: 0 50px 0 50px;
     margin-top: 0;
 }
 
@@ -24,6 +25,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 50px;
 }
 #marque {
     color: rgb(77, 148, 255);
@@ -90,11 +93,11 @@ main {
     background-color: rgb(#F2F2F2);
     height: 50px;
     width: 30%;
-    
+    margin: 20px 0;
 }
 #filtre {
     
-    /* margin: 10px; */
+    margin: 10px 0;
     padding: 5px;
     /*display: flex;
     justify-content: flex-start; */
@@ -241,8 +244,8 @@ border-left: none;
 #vilnatur {
     color: black;
     font-weight: normal;
-    /* margin-bottom: 15px;
-    margin-right: 1px; */
+    margin: 5px 0;
+    
 }
 button {
     border: none;
@@ -256,7 +259,7 @@ padding: 5px;
 
 #grp-pic {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
     background-color: rgb(243, 243, 243);
     border-radius: 20px;
@@ -275,8 +278,9 @@ padding: 5px;
     border-radius: 30px;
     display: flex;
     flex: 60%;
-    max-width: 1400px;
-    max-height: 1884px;
+    max-width: 880px;
+    
+    justify-content: center;
     flex-direction: column;
     /* margin-left: 45px;                             #gdpic        faut revenir ici traiter ca probleme de taille */
     margin: 20px;
@@ -285,6 +289,8 @@ padding: 5px;
 .phototel {
     flex: 25%;
     width: auto;
+    max-width: 245px;
+    max-height: 200px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -292,7 +298,7 @@ padding: 5px;
    
     margin: 20px;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 1px 1px 20px 1px grey;
@@ -344,7 +350,9 @@ aside {
 .picaside {
     display: flex;
     margin: 30px;
+    max-width: 345px;
     height: 145px;
+    max-height: 145px;
     /* margin: 15px; */
     background-color: white;
     border-radius: 20px;
@@ -384,7 +392,7 @@ footer {
     display: flex;
     justify-content: space-around;
     
-    margin: 10px 0 0 0;
+    margin: 10px 50px;
     padding: 50px 300px 50px 50px;
     background-color:#f2f2f2;
     
@@ -470,7 +478,7 @@ div h4 {
     height: 110px;
     width: 100%;
     object-fit: cover;
-    border-radius: 30px 30px 0 0;
+    border-radius: 20px 20px 0 0;
     
 }
 
@@ -508,6 +516,8 @@ activite-image {
 .picaside img {
     border-radius: 20px 0 0 20px;
     width: 100%;
+    max-width: 130px;
+    max-height: 135px;
     height: 100%;
     object-fit: cover;
 }
@@ -519,9 +529,9 @@ activite-image {
     margin-top: 0;
     color: #0065FC;
 }
-.li:active {
+/* .li:active {
    
-}
+} */
 .li:hover {
     border-top: 5px solid  #0065FC;
     margin-top: 0px;
@@ -542,6 +552,7 @@ h*, p*, div {
 
 .boss {
     display: flex;
+    align-items: baseline;
     flex-direction: column;
     padding: 30px;
 }
@@ -551,7 +562,9 @@ h*, p*, div {
  }
 .actMars {
     display: flex;
+    width: 100%;
     justify-content: space-around;
+
     
     
     }
@@ -574,6 +587,8 @@ h*, p*, div {
     
      flex: 100%;
     margin: 0;
+    max-width: 305px;
+    max-height: 445px;
     box-shadow: 1px 1px 20px 0px grey;
     border-radius: 20px;
  }
@@ -623,9 +638,11 @@ figcaption {
     margin-bottom: 10px
 }
 
-/* #pfgcd1 {
-
-} */
+#pfgcd1 {
+    width: 100%;
+    max-width: 305px;
+    max-height: 235px;
+}
 
 #fgcd1 {
     width: 100%;
@@ -634,13 +651,14 @@ figcaption {
     object-fit: cover;
 }
 
-/* #pfgcd2 {
-
-} */
+#pfgcd2 {
+    max-width: 305px;
+    max-height: 165px;
+}
 
 #fgcd2 {
     width: 100%;
-    height: 175px;
+    height: 110px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
@@ -669,10 +687,10 @@ figcaption {
     object-fit: cover;
 }
 
-/* #pfgcd3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-} */
+#pfgcd3 {
+    max-width: 305px;    
+    max-height: 195px;
+}
 
 #fgcd3 {
     width: 100%;
@@ -680,10 +698,11 @@ figcaption {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-/* 
-#pfgcd4 {
 
-} */
+#pfgcd4 {
+    max-width: 305px;
+    max-height: 210px;
+}
 
 #fgcd4 {
     width: 100%;
@@ -716,9 +735,10 @@ figcaption {
     border: 1px solid red;
 } */
 
+/*
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
-/* 
+ 
     body {
        
         margin: 0;
@@ -902,5 +922,5 @@ figcaption {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        } */
-}
+        
+}       } */
