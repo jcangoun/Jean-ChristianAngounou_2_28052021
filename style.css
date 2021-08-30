@@ -5,6 +5,8 @@
     body {
     padding: 0 50px 0 50px;
     margin-top: 0;
+    font-family: 'Raleway';
+    font-size: 15px;
 }
 
 /*   h3{
@@ -23,7 +25,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 1440px;
+    
     margin: 0 50px;
 }
 #marque {
@@ -68,7 +70,7 @@ form {
     display: flex;
 }
 input {
-    /* border: 2px solid #F2F2F2;   c est temporaire le temps d un test */
+    
     font-family:'Raleway', Courier, monospace;
     padding: 5px 10px;
     font-size: 11px;
@@ -278,7 +280,7 @@ padding: 5px;
     border-radius: 30px;
     display: flex;
     flex: 60%;
-    max-width: 880px;
+    
     
     justify-content: center;
     flex-direction: column;
@@ -289,7 +291,7 @@ padding: 5px;
 .phototel {
     flex: 25%;
     width: auto;
-    max-width: 245px;
+    
     max-height: 200px;
     background-color: white;
     display: flex;
@@ -322,7 +324,7 @@ aside {
     flex-direction: column;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
-    max-width: 420px;
+    
     
     margin: 20px;
     
@@ -348,7 +350,7 @@ aside {
 .picaside {
     display: flex;
     margin: 30px;
-    max-width: 345px;
+    
     height: 145px;
     max-height: 145px;
     /* margin: 15px; */
@@ -559,8 +561,8 @@ activite-image {
 .actMars {
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    max-width: 1440px;
+    
+    
 
     
     
