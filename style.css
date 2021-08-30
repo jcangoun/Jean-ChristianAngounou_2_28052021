@@ -72,8 +72,7 @@ input {
     padding: 10px;
 }
 main {
-    
-    /* margin: 5px; */
+    margin: 0 50px 0 50px;
     width: auto;
     
 }
@@ -575,6 +574,8 @@ h*, p*, div {
     
      flex: 100%;
     margin: 0;
+    box-shadow: 1px 1px 20px 0px grey;
+    border-radius: 20px;
  }
 
 /* .emplwoan img {
@@ -585,8 +586,14 @@ h*, p*, div {
 .emplduo {
     height: 200px;
     border-radius: 20px;
+    flex: 100%;
+    margin: 0;
     box-shadow: 2px 2px 13px 0px grey;
     border-bottom-color: #F2F2F2;
+    
+    
+    /* box-shadow: 1px 1px 20px 0px grey; */
+    
 }
 
 
@@ -642,6 +649,7 @@ figcaption {
     box-shadow: 1px 1px 20px 0px grey;
 }
 .soupatrouill {
+    
     box-shadow: 1px 1px 20px 0px grey;
     border-radius: 20px;
 }
@@ -661,10 +669,10 @@ figcaption {
     object-fit: cover;
 }
 
-#pfgcd3 {
+/* #pfgcd3 {
     margin-top: 0;
     margin-bottom: 10px;
-}
+} */
 
 #fgcd3 {
     width: 100%;
