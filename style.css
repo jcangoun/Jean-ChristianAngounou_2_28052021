@@ -3,7 +3,7 @@
      padding: 0;
  }
     body {
-    padding: 0 50px 0 50px;
+    
     /* margin-top: 0; */
     font-family: 'Raleway';
     font-size: 15px;
@@ -203,7 +203,7 @@ border-left: none;
 
 .form {
     display: flex;
-    flex-direction: column;
+    
     /* font-family: 'Courier New', "Courier", "monospace"; */
 }
 
@@ -734,7 +734,7 @@ figcaption {
     border: 1px solid red;
 } */
 
-/*
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
  
@@ -747,20 +747,22 @@ figcaption {
         }
 
     header {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 0;
+        margin-top: 0; */
 
         }
-
+    #marque {
+        color: rgb(77, 148, 255);  
+    }
     .nav-up {
 
         }
 
     .nav-up .li {
-        padding: 40px 30px;
+        /* padding: 40px 30px; */
         }
 
     .li {
@@ -770,10 +772,10 @@ figcaption {
             order: -1;
         }
     main {
-
+            margin: 0px;
         }
     .section {
-        margin: 20px;
+        /* margin: 20px; */
         }
     #titre {
 
@@ -802,7 +804,13 @@ figcaption {
 
     }   
     #search {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 20px;
+    text-align: center;
     } 
 
     #filtre {
@@ -861,14 +869,16 @@ figcaption {
         }    
 
     #gdpic {
-
+            background-color: transparent;
+            margin: 0;
         }
 
     #hbrgmars {
 
         }
     #grp-pic {
-
+            background-color: transparent;
+            flex-direction: column;
         }
 
     .phototel {
@@ -882,7 +892,8 @@ figcaption {
 
         }
     aside {
-
+        margin: 0;
+        border-radius: 0;
         }
     #popul {
 
@@ -921,5 +932,11 @@ figcaption {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        
-}       } */
+          }      
+
+          .patrouille {
+              
+          }
+
+
+}
