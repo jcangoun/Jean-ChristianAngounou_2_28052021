@@ -32,9 +32,9 @@ header {
     color: rgb(77, 148, 255);
     font-size: 40px;
     width: 75%;
-    margin-left: 40px;
+    /* margin-left: 40px;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
     
 }    
 
@@ -59,7 +59,7 @@ header {
     /* margin-left: 5px;
     margin-right: 5px; */
     padding: 20px;
-    border: 1px solid purple;
+    
 }
 #hebrgmars {
     flex: 100%;
@@ -541,7 +541,6 @@ activite-image {
     
 } */
 /* h*, p*, div, label {
-    font-family: "Raleway";
 } */
 
 
@@ -747,11 +746,8 @@ figcaption {
         }
 
     header {
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 0; */
+        
+        margin: 0;
 
         }
     #marque {
@@ -762,20 +758,27 @@ figcaption {
         }
 
     .nav-up .li {
-        /* padding: 40px 30px; */
+        
         }
 
     .li {
 
         }
+
+        #liun {
+
+        }
+        #lideu {
+
+        }
         #litroi {
-            order: -1;
+            /* order: -1; */
         }
     main {
             margin: 0px;
         }
     .section {
-        /* margin: 20px; */
+        
         }
     #titre {
 
@@ -811,6 +814,8 @@ figcaption {
     min-height: 50px;
     padding: 20px;
     text-align: center;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
     } 
 
     #filtre {
@@ -990,9 +995,13 @@ figcaption {
 
           }
           footer {
-
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
           }
           .footcat {
-              
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
           }
 }
