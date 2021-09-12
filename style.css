@@ -41,6 +41,9 @@ header {
 #liMarque {
     display: none;
 }
+#liMarque ::marker {
+    list-style-type: none;
+}
 
 .nav-up {
     display: flex;
