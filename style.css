@@ -717,30 +717,6 @@ figcaption {
 }
 
 
-/* .Pfiltry {
-    
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    border:1px solid black;
-}
-.filtry {
-    
-    border-radius: 30px;
-    display: flex;
-    margin: 25px;
-    padding: 10px;
-    border: 1px solid blue;
-}
-#idfiltry {
-    border: 1px solid green;
-     
-}
-#ecotry {
-    border: 1px solid red;
-} */
-
-
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
  
@@ -949,7 +925,8 @@ figcaption {
 
         }
     figure img {
-
+        max-width: 325px;
+        max-height: 115px;
         }
     .haside {
 
@@ -992,9 +969,19 @@ figcaption {
 
           }
           #fgcd1 {
+            max-width: 335px;
+            max-height: 135px;
+            }
 
-          }
-          #pfgcd2 {
+          
+            
+
+
+
+
+            /*accolade en bas est bizarre donc on a mis tout dedans pour test  */
+
+#pfgcd2 {
 
           }
           #fgcd2 {
@@ -1034,4 +1021,5 @@ figcaption {
             flex-direction: column;
             margin: 20px 0;
           }
-}
+
+ }
