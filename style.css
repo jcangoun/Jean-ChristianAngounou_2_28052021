@@ -241,6 +241,12 @@ border-left: none;
     color: white;
     padding: 10px;
 }
+
+.btnSearch::before{
+    content: "rechercher";
+    
+    
+}
 .section {
     margin-left: 40px;
     font-weight: bolder;
@@ -833,10 +839,14 @@ figcaption {
     border: none;
     border-radius: 15px 15px 15px 15px;
     } 
-    #search ::after{
+    .btnSearch::before{
         content: "\f002";
-        src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
-        src: url(https://kit.fontawesome.com/2eb67eaae2.js);
+        font-family: "Font Awesome 5 Pro";
+        font-size: 18px;
+        color: #ffffff;
+        
+        /* src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
+        src: url(https://kit.fontawesome.com/2eb67eaae2.js); */
     }
 
     #filtre {
