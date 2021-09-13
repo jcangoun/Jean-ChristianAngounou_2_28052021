@@ -38,12 +38,7 @@ header {
     margin-bottom: 50px; */
     padding-left: 40px;
 }    
-#liMarque {
-    display: none;
-}
-#liMarque ::marker {
-    list-style-type: none;
-}
+
 
 .nav-up {
     display: flex;
@@ -736,7 +731,7 @@ figcaption {
 
     header {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row; 
         margin: 0;
 
         }
@@ -746,10 +741,7 @@ figcaption {
         justify-content: space-between;
         width: 85%;
     }
-    #limarque {
-        display: flex;
-        font-size: 15px;
-    }
+   
     .nav-up {
         display: flex;
         justify-content: space-evenly;
@@ -792,7 +784,7 @@ figcaption {
         }
         #litroi {
             order: -1;
-            display: none;
+            
         }
     main {
             margin: 0px;
@@ -839,16 +831,16 @@ figcaption {
     border: none;
     border-radius: 15px 15px 15px 15px;
     } 
-    .btnSearch::before{
+    /* .btnSearch::before{
         content: "\f002";
         font-family: "Font Awesome 5 Pro";
         font-size: 18px;
-        color: #ffffff;
+        color: #ffffff; */
         
         /* src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
-        src: url(https://kit.fontawesome.com/2eb67eaae2.js); */
+        src: url(https://kit.fontawesome.com/2eb67eaae2.js); 
     }
-
+*/
     #filtre {
 
         }
