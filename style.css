@@ -753,7 +753,7 @@ figcaption {
         }
 
     .nav-up .li {
-        
+              
         }
 
     .li {
@@ -761,10 +761,20 @@ figcaption {
         }
 
         #liun {
-
+            flex: 50%;
+            border-bottom: 5px solid #F2F2F2;
+            padding: 20px;
+        }
+        #liun :hover {
+            border-bottom: 5px solid #0065FC;
         }
         #lideu {
-
+            flex: 50%;
+            border-bottom: 5px solid #F2F2F2;
+            padding: 20px;
+        }
+        #lideu :hover {
+            border-bottom: 5px solid #0065FC;
         }
         #litroi {
             order: -1;
@@ -815,6 +825,11 @@ figcaption {
     border: none;
     border-radius: 15px 15px 15px 15px;
     } 
+    #search ::after{
+        content: "\f002";
+        src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
+        src: url(https://kit.fontawesome.com/2eb67eaae2.js);
+    }
 
     #filtre {
 
