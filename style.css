@@ -764,17 +764,24 @@ figcaption {
             flex: 50%;
             border-bottom: 5px solid #F2F2F2;
             padding: 20px;
+        /*  color: black;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions*/
+            color: #0065FC;
+
         }
         #liun :hover {
             border-bottom: 5px solid #0065FC;
+            color: #0065FC;
         }
+
         #lideu {
             flex: 50%;
             border-bottom: 5px solid #F2F2F2;
             padding: 20px;
+            color: black;
         }
         #lideu :hover {
             border-bottom: 5px solid #0065FC;
+            color: #0065FC;
         }
         #litroi {
             order: -1;
