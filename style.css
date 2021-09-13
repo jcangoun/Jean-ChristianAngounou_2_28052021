@@ -830,6 +830,7 @@ figcaption {
     label {
 
         }
+       
     #eco {
 
         }
@@ -860,10 +861,14 @@ figcaption {
 
         }
 
-    #autocon {
+    #autonimaux {
 
         }    
-
+    input #autocon, input #famcon, input #romcon, input #autonimaux {
+        padding: 0;
+        border: 3px solid blue;
+        color: red;
+    }
     .info {
         margin: 20px;
         }
@@ -886,6 +891,10 @@ figcaption {
     #hbrgmars {
 
         }
+    #hbrgmars :hover {
+        border-bottom:5px solid  #0065FC;
+        color: #0065FC;
+    }
     #grp-pic {
             background-color: transparent;
             flex-direction: column;
