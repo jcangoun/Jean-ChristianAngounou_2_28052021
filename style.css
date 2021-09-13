@@ -592,7 +592,7 @@ activite-image {
     
      flex: 100%;
     margin: 0;
-    max-width: 305px;
+    
     max-height: 445px;
     box-shadow: 1px 1px 20px 0px grey;
     border-radius: 20px;
@@ -645,7 +645,7 @@ figcaption {
 
 #pfgcd1 {
     width: 100%;
-    max-width: 305px;
+   
     max-height: 235px;
 }
 
@@ -657,7 +657,7 @@ figcaption {
 }
 
 #pfgcd2 {
-    max-width: 305px;
+    
     max-height: 165px;
 }
 
@@ -693,7 +693,7 @@ figcaption {
 }
 
 #pfgcd3 {
-    max-width: 305px;    
+      
     max-height: 195px;
 }
 
@@ -705,7 +705,7 @@ figcaption {
 }
 
 #pfgcd4 {
-    max-width: 305px;
+    
     max-height: 210px;
 }
 
