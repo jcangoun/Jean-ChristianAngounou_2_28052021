@@ -317,7 +317,7 @@ padding: 5px;
     border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 1px 1px 20px 1px grey;
+    box-shadow: 1px 1px 10px -2px grey;
 }
 
 
@@ -370,7 +370,7 @@ aside {
     /* margin: 15px; */
     background-color: white;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px 1px grey;  
+    box-shadow: 1px 1px 10px -2px grey;  
     /* rechercher */
 }
 .populaireaside {
@@ -601,7 +601,7 @@ activite-image {
     margin: 0;
     
     max-height: 445px;
-    box-shadow: 1px 1px 20px 0px grey;
+    box-shadow: 1px 1px 10px -2px grey;
     border-radius: 20px;
  }
 
@@ -615,7 +615,7 @@ activite-image {
     border-radius: 20px;
     flex: 100%;
     margin: 0;
-    box-shadow: 2px 2px 13px 0px grey;
+    box-shadow: 1px 1px 10px -2px grey;
     border-bottom-color: #F2F2F2;
     
     
