@@ -30,23 +30,28 @@ header {
 }
 #marque {
     display: flex;
+    justify-content: flex-start;
+    width: 65%;
     color: rgb(77, 148, 255);
     font-size: 40px;
-    width: 75%;
+    
     /* margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 50px; */
     padding-left: 40px;
 }    
-
+.conMarq {
+    
+}
 
 .nav-up {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content:space-between;
     /* align-items: center; */
     text-align: center;
     
-    width: 45%;
+    
     
     
     
@@ -61,6 +66,7 @@ header {
     /* margin-left: 5px;
     margin-right: 5px; */
     padding: 20px;
+    /* font-size: 20px; */
     
 }
 #hebrgmars {
@@ -728,6 +734,10 @@ figcaption {
         /* border: 1px solid orange; */
 
         }
+    
+    #body-headr {
+        flex-direction: column;
+    }
 
     header {
         display: flex;
@@ -739,16 +749,19 @@ figcaption {
         color: rgb(77, 148, 255);
         display: flex;
         justify-content: space-between;
-        width: 85%;
+        flex:45%;
+        order: -1;
     }
    
     .nav-up {
         display: flex;
+        flex: 100%;
         justify-content: space-evenly;
+        flex-direction: row;
         align-items: center;
-        text-align: center;
-        width: 100%;
-        }
+        flex-wrap: wrap;
+        text-align: center;        
+    }
 
     .nav-up .li {
               
@@ -759,7 +772,7 @@ figcaption {
         }
 
         #liun {
-            flex: 50%;
+            flex: 30%;
         /*  border-bottom: 5px solid #F2F2F2;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions */
             border-bottom: 5px solid #0065FC;
             padding: 20px;
@@ -773,7 +786,7 @@ figcaption {
         }
 
         #lideu {
-            flex: 50%;
+            flex: 25%;
             border-bottom: 5px solid #F2F2F2;
             padding: 20px;
             color: black;
@@ -784,7 +797,7 @@ figcaption {
         }
         #litroi {
             order: -1;
-            
+            flex: 20%;
         }
     main {
             margin: 0px;
