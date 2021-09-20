@@ -40,9 +40,9 @@ header {
     margin-bottom: 50px; */
     padding-left: 40px;
 }    
-.conMarq {
+/* .conMarq {
     
-}
+} */
 
 .nav-up {
     display: flex;
@@ -392,7 +392,7 @@ aside {
     color: #0065FC ;
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 #greystar101 {
     border: 2px solid #F2F2F2;
@@ -854,6 +854,12 @@ figcaption {
         src: url(https://kit.fontawesome.com/2eb67eaae2.js); 
     }
 */
+
+    .btnSearch::before {
+        font-family: "Font Awesome 5 Free or Font Awesome 5 Pro";
+        font-weight: 900;
+        content: "\f002";
+    }
     #filtre {
 
         }
