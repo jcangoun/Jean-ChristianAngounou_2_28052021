@@ -1,0 +1,1070 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+    body {
+    
+    /* margin-top: 0; */
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+/*   h3{
+    
+}  */
+
+h1 {
+    font-weight: bold;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 50px 30px 50px;  
+    margin: 0 50px;
+}
+#marque {
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    color: rgb(77, 148, 255);
+    font-size: 40px;
+    
+    /* margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px; */
+    padding-left: 40px;
+}    
+/* .conMarq {
+    
+} */
+
+.nav-up {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    /* align-items: center; */
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+.nav-up li { /*  ici il faudra rectifier que 'cest " .nav-up .li" et non "nav-up li" */
+    display: flex;
+    justify-content: space-around;
+    /* text-decoration-line:  ; 
+    on dirait que le <li/> n'a pas de underline eraser  ces nav-up li sont chzanés donc en "nav up p" */
+    color: rgb(77, 148, 255);
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    padding: 20px;
+    /* font-size: 20px; */
+    
+}
+#hebrgmars {
+    flex: 100%;
+    font-size: 20px;
+    padding: 25px 30px 1px;
+}
+form {
+    display: flex;
+}
+input {
+    
+    font-family:'Raleway', Courier, monospace;
+    padding: 5px 10px;
+    font-size: 11px;
+    
+}
+main {
+    margin: 0 50px 0 50px;
+    width: auto;
+    
+}
+#position {
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+}
+#choix {
+    
+    background-color: rgb(#F2F2F2);
+    height: 50px;
+    width: 30%;
+    margin: 20px 0;
+}
+#filtre {
+    
+    margin: 10px 0;
+    padding: 5px;
+    /*display: flex;
+    justify-content: flex-start; */
+}
+.filtr {
+    display: flex;
+}
+
+.filtr input {                      /*  faire les meme actions que avec les */
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+input {
+    z-index:0;
+    font-weight: bolder;
+}
+#eco {
+    display: flex;  
+    margin: 20px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+       
+}
+
+
+#autocon {
+border-left: none;
+    border-right: none;
+    border-top: none;
+        border-bottom: none;
+}
+
+#incot {
+    border-radius: 20px;
+    border: 2px solid #F2F2F2;
+    
+}
+
+#famil {
+    display: flex;
+    border-radius: 10%;  
+    margin: 20px;
+    border-radius: 30px;  
+    border: 2px solid #F2F2F2; 
+                             
+}
+
+#famcon {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+#romant {
+    display: flex;
+    margin: 20px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+       
+    
+}
+
+/* #romcon {
+
+} */
+
+#autoriz {
+    display: flex;
+    margin: 20px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    
+}
+
+/* #autocon {
+    
+} */
+
+
+.form {
+    display: flex;
+    
+    /* font-family: 'Courier New', "Courier", "monospace"; */
+}
+
+#famitest {
+    border: 2px solid #F2F2F2;
+    border-radius: 5%;
+}
+.info {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.fa-info-circle::before {
+    content: "\f05a";
+    color: white;
+    background-color: #0065FC;
+    margin: 5px;
+    border-radius: 20px;
+}
+#insearch {
+    border: 1px solid #F2F2F2;
+}
+
+#search {
+    width: 25%;
+    min-width: 105px;
+    background-color: #0065FC;
+    color: white;
+    padding: 10px;
+}
+
+.btnSearch::before{
+    content: "rechercher";
+    
+    
+}
+.section {
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+#titre {
+    font-weight: bold;
+    
+}
+#vilnatur {
+    color: black;
+    font-weight: normal;
+    margin: 5px 0;
+    
+}
+button {
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 5px;
+    
+}
+section {
+padding: 5px;
+}
+
+#grp-pic {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+#afich {
+    margin-left: 20px;
+}
+
+.pilier {
+    display: flex;
+    width: 100%;
+    
+}
+#gdpic {
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    display: flex;
+    flex: 60%;
+    
+    
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 45px;                             #gdpic        faut revenir ici traiter ca probleme de taille */
+    margin: 20px;
+    padding: 20px;
+}
+.phototel {
+    flex: 25%;
+    width: auto;
+    
+    max-height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px -2px grey;
+}
+
+
+
+
+figcaption .soustitre {
+    margin: 5px 10px 10px 10px;
+
+}
+.soustitre {
+    font-weight: bolder;
+}
+
+aside {
+    border-radius: 30px;
+    flex: 20%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    
+    
+    margin: 20px;
+    
+    /* padding: 30px; caché temporairement */
+    padding: 5px;
+}
+#popul {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px;
+}
+
+#courb {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.gaside {               /* probleme de longueur de texte qui du coup le met verticalement décalé*/
+    width: auto;
+}
+.picaside {
+    display: flex;
+    margin: 30px;
+    
+    height: 145px;
+    max-height: 145px;
+    /* margin: 15px; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px -2px grey;  
+    /* rechercher */
+}
+.populaireaside {
+    flex: 40%;
+    margin: 5px;
+}
+.haside {  
+    display: flex;
+    flex: 60%;
+    margin: 15px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    margin: 20px;
+    
+    font-weight: bolder;
+}
+.star {
+    color: #0065FC ;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0;
+}
+#greystar101 {
+    border: 2px solid #F2F2F2;
+    color:#F2F2F2;
+}
+
+.inactive {
+    color: #f2f2f2;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    
+    /* margin: 10px 50px; */
+    padding: 50px 300px 50px 50px;
+    background-color:#f2f2f2;
+    
+
+}
+.footcat {
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+.contactiv {
+   
+   display: flex;
+   flex-direction: column;
+   
+}   
+
+
+#activ {
+    font-size: 30px;
+}
+
+.grppic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+    
+#activ1 {
+    flex: 25%;
+    height: 370px;
+    margin: 2px;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#activ2 {
+    
+    margin: 2px;
+    display: flex;
+    flex: 25%;
+    flex-direction: column;
+
+
+
+}
+#activ3 {
+    
+    margin: 2px;
+    flex: 25%;
+    height: 370px;
+}
+#activ4 {
+    
+    margin: 2px;
+    display: flex;
+    flex: 25%;
+    flex-direction: column;
+}
+  /*
+div h3 {
+     font-size: 30px; on garde cette ensemble de balisage jusqu'à etre sûr de n'en avoir pas besoin
+} */
+form span {
+    padding: 5px;
+}
+div h4 {
+    font-weight: normal;
+}
+
+  
+/*
+.impic {
+              /* la suite de la mission là sera de créer toute les config pour cette impic mais aussi créer les autres classs imaside et immars
+}  */
+
+.phototel img {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+#activ1 img {
+    object-fit: cover;
+    height: 540px;
+    border-radius: 10px;
+ }
+
+ /*
+activite-image { 
+    il y a une tâche à remplir ici 
+} */
+
+#activ2 .divon img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+#activ3 img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 540px;
+}
+#activ4 .divon img {
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+/* figure img {
+    height: 370px;     ca domine trop   , du coup petit test
+} */
+
+.picaside img {
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    max-width: 130px;
+    max-height: 135px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.li {
+    
+    padding: 40px;
+    border-top: 5px solid  transparent;
+    margin-top: 0;
+    color: #0065FC;
+}
+/* .li:active {
+   
+} */
+.li:hover {
+    border-top: 5px solid  #0065FC;
+    margin-top: 0px;
+    color: #0065FC;
+    
+}
+
+/* .li:visited {
+    
+} */
+/* h*, p*, div, label {
+} */
+
+
+
+
+
+.boss {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#hbm {
+    margin-bottom: 20px;
+ }
+.actMars {
+    display: flex;
+    width: 100%;
+    
+    
+
+    
+    
+    }
+
+.patrouille {
+    display: flex;
+    flex: 25%;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    border-radius: 20px;
+    height: 422px;
+    /* margin: 30px; */
+ }
+
+ .patrouille:nth-child(-n+3) {
+     margin: 0 40px 0 0;
+ }
+ .emplwoan {
+    
+     flex: 100%;
+    margin: 0;
+    
+    max-height: 445px;
+    box-shadow: 1px 1px 10px -2px grey;
+    border-radius: 20px;
+ }
+
+/* .emplwoan img {
+    height: 370px;
+}
+                                surement une maguouille bizarre*/
+
+.emplduo {
+    height: 200px;
+    border-radius: 20px;
+    flex: 100%;
+    margin: 0;
+    box-shadow: 1px 1px 10px -2px grey;
+    border-bottom-color: #F2F2F2;
+    
+    
+    /* box-shadow: 1px 1px 20px 0px grey; */
+    
+}
+
+
+.emplduo:first-child {
+    margin: 0 0 40px 0; /* margin-bottom zero pour le premier element*/
+}
+
+
+.emplduo img{
+height: 370px;
+
+}
+
+/* #pfgcs1 {
+
+} */
+
+#fgcs1 {
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+figcaption {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+
+#pfgcd1 {
+    width: 100%;
+   
+    max-height: 235px;
+}
+
+#fgcd1 {
+    width: 100%;
+    height: 175px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+#pfgcd2 {
+    
+    max-height: 165px;
+}
+
+#fgcd2 {
+    width: 100%;
+    height: 110px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+#soupatrouill {
+    box-shadow: 1px 1px 20px 0px grey;
+}
+.soupatrouill {
+    
+    box-shadow: 1px 1px 20px 0px grey;
+    border-radius: 20px;
+}
+#sou2patrouill {
+    box-shadow: 1px 1px 20px 0px grey;
+    border-radius: 20px;
+}
+
+/* #pfgcs2 {
+
+} */
+
+#fgcs2 {
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+#pfgcd3 {
+      
+    max-height: 195px;
+}
+
+#fgcd3 {
+    width: 100%;
+    height: 135px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+#pfgcd4 {
+    
+    max-height: 210px;
+}
+
+#fgcd4 {
+    width: 100%;
+    height: 145px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+ 
+    body {
+       
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid orange; */
+
+        }
+    
+    #body-headr {
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row; 
+        margin: 0;
+
+        }
+    #marque {  
+        color: rgb(77, 148, 255);
+        display: flex;
+        justify-content: space-between;
+        flex:45%;
+        order: -1;
+    }
+   
+    .nav-up {
+        display: flex;
+        flex: 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;        
+    }
+
+    .nav-up .li {
+              
+        }
+
+    .li {
+
+        }
+
+        #liun {
+            flex: 30%;
+        /*  border-bottom: 5px solid #F2F2F2;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions */
+            border-bottom: 5px solid #0065FC;
+            padding: 20px;
+        /*  color: black;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions*/
+            color: #0065FC;
+
+        }
+        #liun :hover {
+            border-bottom: 5px solid #0065FC;
+            color: #0065FC;
+        }
+
+        #lideu {
+            flex: 25%;
+            border-bottom: 5px solid #F2F2F2;
+            padding: 20px;
+            color: black;
+        }
+        #lideu :hover {
+            border-bottom: 5px solid #0065FC;
+            color: #0065FC;
+        }
+        #litroi {
+            order: -1;
+            flex: 20%;
+        }
+    main {
+            margin: 0px;
+        }
+    .section {
+        
+        }
+    #titre {
+        display: flex;
+        font-weight: bolder;
+        font-size: 24px;
+        }
+    #vilnatur {
+
+        }
+    .form {
+
+        }    
+    #choix {
+
+        }
+
+        #position {
+            background-color: #F2F2F2;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 0 0 15px;
+        }
+
+    #insearch {
+
+    }   
+    #search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    } 
+    /* .btnSearch::before{
+        content: "\f002";
+        font-family: "Font Awesome 5 Pro";
+        font-size: 18px;
+        color: #ffffff; */
+        
+        /* src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
+        src: url(https://kit.fontawesome.com/2eb67eaae2.js); 
+    }
+*/
+
+    .btnSearch::before {
+        font-family: "Font Awesome 5 Free or Font Awesome 5 Pro";
+        font-weight: 900;
+        content: "\f002";
+    }
+    #filtre {
+
+        }
+    .filtr {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        }
+
+    label {
+
+        }
+       
+    #eco {
+
+        }
+    .icon {
+
+        }
+
+    #autocon {
+
+        }
+    #famil {
+
+        }
+
+    #famcon {
+
+        }    
+        
+    #romant {
+
+        }
+
+    #romcon {
+
+        }
+
+    #autoriz {
+
+        }
+
+    #autonimaux {
+
+        }    
+    input #autocon, input #famcon, input #romcon, input #autonimaux {
+        padding: 0;
+        border: 3px solid blue;
+        color: red;
+    }
+    .info {
+        margin: 20px;
+        }
+    section {
+
+        }
+
+    .pilier {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+        }    
+
+    #gdpic {
+            background-color: transparent;
+            margin: 0;
+        }
+
+    #hbrgmars {
+
+        }
+    #hbrgmars :hover {
+        border-bottom:5px solid  #0065FC;
+        color: #0065FC;
+    }
+    #grp-pic {
+            background-color: transparent;
+            flex-direction: column;
+        }
+
+    .phototel {
+        margin: 10px;
+        }
+
+    .soustitre {
+
+        }
+    .star {
+
+        }
+    aside {
+        margin: 0;
+        border-radius: 0;
+        }
+    #popul {
+
+        }
+
+    #courb {
+
+        }
+    .gaside {
+
+        }
+    .picaside {
+
+        }
+    .populaireaside {
+
+        }
+    figure {
+
+        }
+    figure img {
+        max-width: 335px;
+        max-height: 135px;
+        }
+    .haside {
+
+        }
+
+    .boss {
+
+        }
+    #hbm {
+
+        }
+
+    .actMars {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+          }      
+
+          .patrouille {
+
+          }
+          .patrouille:nth-child(-n+3) {
+            margin: 0;
+        }  
+          .emplwoan {
+            margin: 10px 5px;
+          }
+          #fgcs1 {
+
+          }
+          .emplduo {
+            margin: 10px 5px;
+          }
+
+          .emplduo:first-child {
+            margin: 0;
+        }
+
+          #pfgcd1 {
+
+          }
+          #fgcd1 {
+            /* max-width: 335px;
+            max-height: 135px; */
+            }
+
+          #pfgcd2 {
+
+          }
+          #fgcd2 {
+
+          }
+          .soupatrouill {
+
+          }
+          #pfgcs2 {
+
+          }
+          #fgcs2 {
+
+          }
+          figcaption {
+
+          }
+          #pfgcd3 {
+
+          }
+          #fgcd3 {
+
+          }
+          #pfgcd4 {
+
+          }
+          #fgcd4 {
+
+          }
+          footer {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+          }
+          .footcat {
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+          }
+
+ }
