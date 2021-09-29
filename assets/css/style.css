@@ -373,10 +373,20 @@ aside {
     box-shadow: 1px 1px 10px -2px grey;  
     /* rechercher */
 }
+
+
+.picaside #a1 {
+    display: flex;
+}
+.picaside #a3 {
+    display: flex;
+}
 .populaireaside {
     flex: 40%;
     margin: 5px;
 }
+
+
 .haside {  
     display: flex;
     flex: 60%;
