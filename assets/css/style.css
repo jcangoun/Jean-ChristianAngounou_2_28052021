@@ -153,7 +153,7 @@ input {
 }
 #eco {
     display: flex;  
-    margin: 20px;
+    margin: 20px 10px;
     border-radius: 30px;
     border: 2px solid #F2F2F2;
        
@@ -165,6 +165,9 @@ input {
     border-right: none;
     border-top: none;
     border-bottom: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 #incot {
@@ -176,7 +179,7 @@ input {
 #famil {
     display: flex;
     border-radius: 10%;  
-    margin: 20px;
+    margin: 20px 10px;
     border-radius: 30px;  
     border: 2px solid #F2F2F2; 
                              
@@ -187,23 +190,28 @@ input {
     border-top: none;
     border-right: none;
     border-bottom: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 #romant {
     display: flex;
-    margin: 20px;
+    margin: 20px 10px;
     border-radius: 30px;
     border: 2px solid #F2F2F2;
        
     
 }
 
-/* #romcon {
-
-} */
+#romcon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
 
 #autoriz {
     display: flex;
-    margin: 20px;
+    margin: 20px 10px;
     border-radius: 30px;
     border: 2px solid #F2F2F2;
     
@@ -214,6 +222,9 @@ input {
     border-right: none;
     border-top: none;
     border-bottom: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 
@@ -283,7 +294,6 @@ padding: 5px;
 
 #grp-pic {
     display: flex;
-    /* justify-content: space-around; */
     flex-wrap: wrap;
     background-color: rgb(243, 243, 243);
     border-radius: 20px;
@@ -294,19 +304,16 @@ padding: 5px;
 
 .pilier {
     display: flex;
-    width: 100%;
-    
+    width: 100%;   
 }
+
 #gdpic {
     background-color: #F2F2F2;
     border-radius: 30px;
     display: flex;
-    flex: 60%;
-    
-    
+    flex: 60%;    
     justify-content: center;
     flex-direction: column;
-    /* margin-left: 45px;                             #gdpic        faut revenir ici traiter ca probleme de taille */
     margin: 20px;
     padding: 20px;
 }
@@ -328,8 +335,9 @@ padding: 5px;
     box-shadow: 1px 1px 10px -2px grey;
 }
 
-
-
+a h3, a h4, a .star {
+    margin: 5px 0 5px 10px;
+}
 
 figcaption .soustitre {
     margin: 5px 10px 10px 10px;
@@ -345,12 +353,8 @@ aside {
     justify-content: center;
     flex-direction: column;
     background-color: #F2F2F2;
-    border: 1px solid #F2F2F2;
-    
-    
+    border: 1px solid #F2F2F2;    
     margin: 20px;
-    
-    /* padding: 30px; caché temporairement */
     padding: 5px;
 }
 #popul {
@@ -375,11 +379,10 @@ aside {
     
     height: 145px;
     max-height: 145px;
-    /* margin: 15px; */
     background-color: white;
     border-radius: 20px;
     box-shadow: 1px 1px 10px -2px grey;  
-    /* rechercher */
+    
 }
 
 
@@ -424,7 +427,7 @@ footer {
     display: flex;
     justify-content: space-around;
     
-    /* margin: 10px 50px; */
+    
     padding: 50px 300px 50px 50px;
     background-color:#f2f2f2;
     
@@ -486,22 +489,13 @@ footer {
     flex: 25%;
     flex-direction: column;
 }
-  /*
-div h3 {
-     font-size: 30px; on garde cette ensemble de balisage jusqu'à etre sûr de n'en avoir pas besoin
-} */
+  
 form span {
     padding: 5px;
 }
 div h4 {
     font-weight: normal;
 }
-
-  
-/*
-.impic {
-              /* la suite de la mission là sera de créer toute les config pour cette impic mais aussi créer les autres classs imaside et immars
-}  */
 
 .phototel img {
     display: flex;
@@ -518,10 +512,6 @@ div h4 {
     border-radius: 10px;
  }
 
- /*
-activite-image { 
-    il y a une tâche à remplir ici 
-} */
 
 #activ2 .divon img {
     object-fit: cover;
@@ -782,7 +772,6 @@ figcaption {
         flex: 100%;
         justify-content: space-evenly;
         flex-direction: row;
-        align-items: center;
         flex-wrap: wrap;
         text-align: center;        
     }
@@ -815,7 +804,12 @@ figcaption {
             padding: 20px;
             color: black;
         }
-        #lideu :hover {
+
+        #lideu:link {
+
+        }
+        
+        #lideu:hover {
             border-bottom: 5px solid #0065FC;
             color: #0065FC;
         }
@@ -823,6 +817,10 @@ figcaption {
             order: -1;
             flex: 20%;
         }
+        #litroi:active {
+            border-bottom: 5px solid #0065FC;
+        }
+
     main {
             margin: 0px;
         }
@@ -891,8 +889,7 @@ figcaption {
         
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: flex-start;  
         }
 
         .filtr input {
@@ -903,10 +900,6 @@ figcaption {
 
         }
        #lesco {
-        /* display: flex;
-        flex: 100%;
-        flex-wrap: wrap;
-        border: 1px solid red; */
         display: flex;
         flex-wrap: wrap;
 }
@@ -925,9 +918,6 @@ figcaption {
 
         }
 
-    /* #autocon {
-        padding: 0 10px;
-        } */
     #famil {
         margin: 10px;
         display: flex;
@@ -959,11 +949,7 @@ figcaption {
         align-items: center;
         padding: 0 10px;
         }    
-    input #autocon, input #famcon, input #romcon, input #autonimaux {
-        padding: 0;
-        border: 3px solid blue;
-        color: red;
-    }
+
     .info {
         margin: 20px;
         }
@@ -1056,20 +1042,15 @@ figcaption {
             margin: 0;
         }  
           .emplwoan {
-            /* margin: 10px 5px; */
             width: 335px;
             height: 190px;
             margin: 10px 0;
           }
 
-          /* .emplwoan img {
-              height: 390px;
-          } */
           #fgcs1 {
             height: 135px;
           }
           .emplduo {
-            /* margin: 10px 5px; */
           }
 
           .emplduo:first-child {
@@ -1083,7 +1064,6 @@ figcaption {
             margin: 10px 0;
           }
           #fgcd1 {
-            /* max-width: 335px;*/
            height: 135px; 
             }
 
