@@ -1002,7 +1002,7 @@ figcaption {
         }
 
     .boss {
-
+        padding: 20px;
         }
     #hbm {
 
@@ -1015,7 +1015,7 @@ figcaption {
           }      
 
           .patrouille {
-            
+            display: flex;
           }
           .patrouille:nth-child(-n+3) {
             margin: 0;
@@ -1024,13 +1024,14 @@ figcaption {
             /* margin: 10px 5px; */
             width: 335px;
             height: 190px;
+            margin: 10px 0;
           }
 
           /* .emplwoan img {
               height: 390px;
           } */
           #fgcs1 {
-
+            height: 135px;
           }
           .emplduo {
             /* margin: 10px 5px; */
@@ -1044,27 +1045,29 @@ figcaption {
           #pfgcd1 {
             width: 335px;
             height: 190px;
+            margin: 10px 0;
           }
           #fgcd1 {
-            /* max-width: 335px;
-            max-height: 135px; */
+            /* max-width: 335px;*/
+           height: 135px; 
             }
 
           #pfgcd2 {
             width: 335px;
             height: 190px;
+            margin: 10px 0;
           }
           #fgcd2 {
-
+            height: 135px;
           }
           .soupatrouill {
 
           }
           #pfgcs2 {
-
+            margin: 10px 0;
           }
           #fgcs2 {
-
+            height: 135px;
           }
           figcaption {
 
@@ -1072,16 +1075,18 @@ figcaption {
           #pfgcd3 {
             width: 335px;
             height: 190px;
+            margin: 10px 0;
           }
           #fgcd3 {
-
+            height: 135px;
           }
           #pfgcd4 {
             width: 335px;
             height: 190px;
+            margin: 10px 0;
           }
           #fgcd4 {
-
+            height: 135px;
           }
           footer {
             display: flex;
