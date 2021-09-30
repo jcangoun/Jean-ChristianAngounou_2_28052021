@@ -827,7 +827,7 @@ figcaption {
             margin: 0px;
         }
     .section {
-        
+        margin: 20px;
         }
     #titre {
         display: flex;
@@ -912,42 +912,52 @@ figcaption {
 }
 
 #eco {
-
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
         }
-        
-#ecocon {
-        
+
+    #ecocon {
+        padding: 0 10px;   
     }
 
     .icon {
 
         }
 
-    #autocon {
-
-        }
+    /* #autocon {
+        padding: 0 10px;
+        } */
     #famil {
-
+        margin: 10px;
+        display: flex;
+        align-items: center;
         }
 
     #famcon {
-
+        padding: 0 10px;
         }    
         
     #romant {
-
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
         }
 
     #romcon {
-
+        padding: 0 10px;
         }
 
     #autoriz {
-
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
         }
 
-    #autonimaux {
-
+    #autocon {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
         }    
     input #autocon, input #famcon, input #romcon, input #autonimaux {
         padding: 0;
@@ -958,7 +968,7 @@ figcaption {
         margin: 20px;
         }
     section {
-
+        
         }
 
     .pilier {
