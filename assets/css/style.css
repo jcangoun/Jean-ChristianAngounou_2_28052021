@@ -146,6 +146,11 @@ input {
     z-index:0;
     font-weight: bolder;
 }
+
+#lesco {
+    
+    display: flex;
+}
 #eco {
     display: flex;  
     margin: 20px;
@@ -155,11 +160,11 @@ input {
 }
 
 
-#autocon {
-border-left: none;
+#ecocon {
+    border-left: none;
     border-right: none;
     border-top: none;
-        border-bottom: none;
+    border-bottom: none;
 }
 
 #incot {
@@ -204,9 +209,12 @@ border-left: none;
     
 }
 
-/* #autocon {
-    
-} */
+#autocon {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
 
 
 .form {
@@ -887,13 +895,30 @@ figcaption {
         
         }
 
+        .filtr input {
+            
+        }
+
     label {
 
         }
-       
-    #eco {
+       #lesco {
+        /* display: flex;
+        flex: 100%;
+        flex-wrap: wrap;
+        border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+}
+
+#eco {
 
         }
+        
+#ecocon {
+        
+    }
+
     .icon {
 
         }
