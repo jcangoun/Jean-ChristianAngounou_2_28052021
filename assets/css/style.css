@@ -654,9 +654,11 @@ height: 370px;
     object-fit: cover;
 }
 figcaption {
-    margin-left: 15px;
+    /* margin-left: 15px;
     margin-top: 5px;
-    margin-bottom: 10px
+    margin-bottom: 10px */
+
+    margin: 20px;
 }
 
 #pfgcd1 {
@@ -738,7 +740,7 @@ figcaption {
 }
 
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
  
     body {
@@ -781,7 +783,7 @@ figcaption {
         }
 
     .li {
-
+        
         }
 
         #liun {
@@ -806,7 +808,7 @@ figcaption {
         }
 
         #lideu:link {
-
+            
         }
         
         #lideu:hover {
@@ -818,7 +820,7 @@ figcaption {
             flex: 20%;
         }
         #litroi:active {
-            border-bottom: 5px solid #0065FC;
+            border-bottom: 5px solid transparent;
         }
 
     main {
@@ -866,17 +868,19 @@ figcaption {
     border: none;
     border-radius: 15px 15px 15px 15px;
     } 
-    /* .btnSearch::before{
-        content: "\f002";
+
+    
+    .btnSearch::before {
+        content: '\f002';
         font-family: "Font Awesome 5 Pro";
         font-size: 18px;
-        color: #ffffff; */
+        color: #ffffff;
         
         /* src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
         src: url(https://kit.fontawesome.com/2eb67eaae2.js); 
-    }
+    
 */
-
+}
     .btnSearch::before {
         font-family: "Font Awesome 5 Free or Font Awesome 5 Pro";
         font-weight: 900;
