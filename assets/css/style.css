@@ -294,7 +294,7 @@ section {
   justify-content: center;
   flex-direction: column;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 .phototel {
   flex: 25%;
@@ -797,19 +797,9 @@ figcaption {
     border-radius: 15px 15px 15px 15px;
   }
 
+  
   .btnSearch::before {
-    content: "\f002";
-    font-family: "Font Awesome 5 Pro";
-    font-size: 18px;
-    color: #ffffff;
-
-    /* src: url(https://fontawesome.com/v5.15/icons/search?style=solid);
-        src: url(https://kit.fontawesome.com/2eb67eaae2.js); 
-    
-*/
-  }
-  .btnSearch::before {
-    font-family: "Font Awesome 5 Free or Font Awesome 5 Pro";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f002";
   }
@@ -909,6 +899,7 @@ figcaption {
   #grp-pic {
     background-color: transparent;
     flex-direction: column;
+    padding: 0;
   }
 
   .phototel {
@@ -936,9 +927,12 @@ figcaption {
     .gaside {
 
         }
-    .picaside {
+*/
 
-        }
+.picaside {
+    margin: 10px;     
+  }
+/*
     .populaireaside {
 
         }
@@ -972,7 +966,7 @@ figcaption {
     margin: 0;
   }
   .emplwoan {
-    width: 335px;
+    flex: 95%;
     height: 190px;
     margin: 10px 0;
   }
@@ -988,7 +982,7 @@ figcaption {
   }
 
   #pfgcd1 {
-    width: 335px;
+    flex: 95%;
     height: 190px;
     margin: 10px 0;
   }
@@ -997,7 +991,7 @@ figcaption {
   }
 
   #pfgcd2 {
-    width: 335px;
+    flex:95%;
     height: 190px;
     margin: 10px 0;
   }
@@ -1017,7 +1011,7 @@ figcaption {
 
           } */
   #pfgcd3 {
-    width: 335px;
+    flex:95%;
     height: 190px;
     margin: 10px 0;
   }
@@ -1025,7 +1019,7 @@ figcaption {
     height: 135px;
   }
   #pfgcd4 {
-    width: 335px;
+    flex:95%;
     height: 190px;
     margin: 10px 0;
   }
@@ -1051,7 +1045,4 @@ plus et cela dit on met les margin auto qui recentre et gere les "margin" */
     max-width: 1920px;
     margin: auto;
   }
-}
-* {
-    border: 1px solid rgb(243, 218, 218);
 }
