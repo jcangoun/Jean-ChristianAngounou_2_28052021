@@ -778,13 +778,13 @@ figcaption {
         text-align: center;        
     }
 
-    .nav-up .li {
+    /* .nav-up .li {
               
         }
 
     .li {
         
-        }
+        } */
 
         #liun {
             flex: 30%;
@@ -807,9 +807,9 @@ figcaption {
             color: black;
         }
 
-        #lideu:link {
+        /* #lideu:link {
             
-        }
+        } */
         
         #lideu:hover {
             border-bottom: 5px solid #0065FC;
@@ -834,7 +834,7 @@ figcaption {
         font-weight: bolder;
         font-size: 24px;
         }
-    #vilnatur {
+    /* #vilnatur {
 
         }
     .form {
@@ -842,7 +842,7 @@ figcaption {
         }    
     #choix {
 
-        }
+        } */
 
         #position {
             background-color: #F2F2F2;
@@ -854,9 +854,9 @@ figcaption {
             border-radius: 15px 0 0 15px;
         }
 
-    #insearch {
+    /* #insearch {
 
-    }   
+    }    */
     #search {
     display: flex;
     justify-content: center;
@@ -886,23 +886,23 @@ figcaption {
         font-weight: 900;
         content: "\f002";
     }
-    #filtre {
+    /* #filtre {
 
-        }
+        } */
     .filtr {
         
         display: flex;
         flex-direction: column;
         align-items: flex-start;  
         }
-
+/*
         .filtr input {
             
         }
 
-    label {
+     label {
 
-        }
+        } */
        #lesco {
         display: flex;
         flex-wrap: wrap;
@@ -918,9 +918,9 @@ figcaption {
         padding: 0 10px;   
     }
 
-    .icon {
+    /* .icon {
 
-        }
+        } */
 
     #famil {
         margin: 10px;
@@ -957,9 +957,9 @@ figcaption {
     .info {
         margin: 20px;
         }
-    section {
+    /* section {
         
-        }
+        } */
 
     .pilier {
         display: flex;
@@ -973,9 +973,9 @@ figcaption {
             margin: 0;
         }
 
-    #hbrgmars {
+    /* #hbrgmars {
 
-        }
+        } */
     #hbrgmars :hover {
         border-bottom:5px solid  #0065FC;
         color: #0065FC;
@@ -989,17 +989,18 @@ figcaption {
         margin: 10px;
         }
 
-    .soustitre {
+    /* .soustitre {
 
         }
     .star {
 
-        }
+        } */
+
     aside {
         margin: 0;
         border-radius: 0;
         }
-    #popul {
+    /* #popul {
 
         }
 
@@ -1017,21 +1018,21 @@ figcaption {
         }
     figure {
 
-        }
+        } */
     figure img {
        
         max-height: 135px;
         }
-    .haside {
+    /* .haside {
 
-        }
+        } */
 
     .boss {
         padding: 20px;
         }
-    #hbm {
+    /* #hbm {
 
-        }
+        } */
 
     .actMars {
         display: flex;
@@ -1054,8 +1055,8 @@ figcaption {
           #fgcs1 {
             height: 135px;
           }
-          .emplduo {
-          }
+          /* .emplduo {
+          } */
 
           .emplduo:first-child {
             margin: 0;
@@ -1079,18 +1080,18 @@ figcaption {
           #fgcd2 {
             height: 135px;
           }
-          .soupatrouill {
+          /* .soupatrouill {
 
-          }
+          } */
           #pfgcs2 {
             margin: 10px 0;
           }
           #fgcs2 {
             height: 135px;
           }
-          figcaption {
+          /* figcaption {
 
-          }
+          } */
           #pfgcd3 {
             width: 335px;
             height: 190px;
