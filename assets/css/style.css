@@ -217,6 +217,31 @@ input {
     
 }
 
+
+#eco:hover {
+    background-color: rgb(197, 100, 197);
+    border: 3px solid rgb(120, 172, 120);
+    box-shadow: 0px 0px 8px 1px green;
+    color: white;
+}
+#famil:hover {
+    background-color: rgb(197, 100, 197);
+    border: 3px solid rgb(216, 184, 125);
+    box-shadow: 0px 0px 8px 1px rgb(154, 214, 154);
+    color: white;
+}
+
+#romant:hover {
+    background-color: rgb(156, 156, 233);
+    border: 3px solid rgb(255, 190, 201);
+    box-shadow: 0px 0px 8px 1px rgb(255, 190, 201);
+    color: white;
+}
+#autoriz:hover{
+    background-color: rgb(79, 189, 79);
+    border: 3px solid orangered;
+    box-shadow: 0px 0px 8px 1px rgb(112, 112, 223);
+}
 #autocon {
     border-left: none;
     border-right: none;
@@ -868,7 +893,6 @@ figcaption {
     border: none;
     border-radius: 15px 15px 15px 15px;
     } 
-
     
     .btnSearch::before {
         content: '\f002';
@@ -948,6 +972,12 @@ figcaption {
         align-items: center;
         }
 
+        #eco:hover {
+            background-color: rgb(248, 197, 248);
+            border: 1px solid rgb(0, 113, 128);
+            box-shadow: 0px 0px 8px 1px rgb(0, 113, 128);
+        }
+        
     #autocon {
         display: flex;
         align-items: center;
