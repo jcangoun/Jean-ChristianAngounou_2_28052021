@@ -725,7 +725,7 @@ figcaption {
     color: #0065fc;
   }
   #liun :hover {
-    border-bottom: 5px solid #0065fc;
+    
     color: #0065fc;
   }
 
@@ -946,6 +946,11 @@ figcaption {
 
         } */
 
+        .li:hover {
+          border-top: 5px solid transparent;
+          margin-top: 0px;
+          color: none;
+        }
   .boss {
     padding: 20px;
   }
