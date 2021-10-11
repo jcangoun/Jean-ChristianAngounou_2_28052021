@@ -330,7 +330,7 @@ aside {
   margin: 20px;
   padding: 5px;
 }
-#popul {
+#hebergPopulaire {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -338,16 +338,16 @@ aside {
   margin: 40px;
 }
 
-#courb {
+#logoCourb {
   margin: 5px;
   font-size: 25px;
 }
 
-.gaside {
+.groupHebergPopular {
   /* probleme de longueur de texte qui du coup le met verticalement décalé*/
   width: auto;
 }
-.picaside {
+.hebergPopularProposed {
   display: flex;
   margin: 30px;
 
@@ -358,18 +358,18 @@ aside {
   box-shadow: 1px 1px 10px -2px grey;
 }
 
-.picaside #a1 {
+.hebergPopularProposed #a1 {
   display: flex;
 }
-.picaside #a3 {
+.hebergPopularProposed #a3 {
   display: flex;
 }
-.populaireaside {
+.photoHebergementPopular {
   flex: 40%;
   margin: 5px;
 }
 
-.haside {
+.descriptHebergPopular {
   display: flex;
   flex: 60%;
   margin: 15px;
@@ -488,7 +488,7 @@ div h4 {
     height: 370px;     ca domine trop   , du coup petit test
 } */
 
-.picaside img {
+.hebergPopularProposed img {
   border-radius: 20px 0 0 20px;
   width: 100%;
   max-width: 130px;
@@ -518,22 +518,22 @@ div h4 {
 /* h*, p*, div, label {
 } */
 
-.boss {
+.panelActivitesMarseille {
   display: flex;
   align-items: baseline;
   flex-direction: column;
   padding: 30px;
 }
 
-#hbm {
+#presenteActivitesMarseille {
   margin-bottom: 20px;
 }
-.actMars {
+.group-Activites-Marseille {
   display: flex;
   width: 100%;
 }
 
-.patrouille {
+.activite-Marseille {
   display: flex;
   flex: 25%;
   justify-content: space-around;
@@ -542,10 +542,10 @@ div h4 {
   border-radius: 20px;
 }
 
-.patrouille:nth-child(-n + 3) {
+.activite-Marseille:nth-child(-n + 3) {
   margin: 0 40px 0 0;
 }
-.emplwoan {
+.photo-Grand-Format-Activite {
   flex: 100%;
   margin: 0;
 
@@ -554,12 +554,12 @@ div h4 {
   border-radius: 20px;
 }
 
-/* .emplwoan img {
+/* .photo-Grand-Format-Activite img {
     height: 370px;
 }
                                 surement une maguouille bizarre*/
 
-.emplduo {
+.photo-Petit-Format-Activites {
   border-radius: 20px;
   flex: 100%;
   margin: 0;
@@ -569,11 +569,11 @@ div h4 {
   /* box-shadow: 1px 1px 20px 0px grey; */
 }
 
-/* .emplduo:first-child {
+/* .photo-Petit-Format-Activites:first-child {
     margin: 0 0 40px 0; 
 }                                 margin bottom pour le first element */
 
-.emplduo img {
+.photo-Petit-Format-Activites img {
   height: 370px;
 }
 
@@ -581,7 +581,7 @@ div h4 {
 
 } */
 
-#fgcs1 {
+#img-Grand-Format {
   width: 100%;
   height: 390px;
   border-radius: 20px 20px 0 0;
@@ -909,23 +909,23 @@ figcaption {
     margin: 0;
     border-radius: 0;
   }
-  /* #popul {
+  /* #hebergPopulaire {
 
         }
 
-    #courb {
+    #logoCourb {
 
         }
-    .gaside {
+    .groupHebergPopular {
 
         }
 */
 
-.picaside {
+.hebergPopularProposed {
     margin: 10px;     
   }
 /*
-    .populaireaside {
+    .photoHebergementPopular {
 
         }
     figure {
@@ -934,7 +934,7 @@ figcaption {
   figure img {
     max-height: 135px;
   }
-  /* .haside {
+  /* .descriptHebergPopular {
 
         } */
 
@@ -943,38 +943,38 @@ figcaption {
           margin-top: 0px;
           color: none;
         }
-  .boss {
+  .panelActivitesMarseille {
     padding: 20px;
   }
-  /* #hbm {
+  /* #presenteActivitesMarseille {
 
         } */
 
-  .actMars {
+  .group-Activites-Marseille {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
   }
 
-  .patrouille {
+  .activite-Marseille {
     display: flex;
   }
-  .patrouille:nth-child(-n + 3) {
+  .activite-Marseille:nth-child(-n + 3) {
     margin: 0;
   }
-  .emplwoan {
+  .photo-Grand-Format-Activite {
     flex: 95%;
     height: 190px;
     margin: 10px 0;
   }
 
-  #fgcs1 {
+  #img-Grand-Format{
     height: 135px;
   }
-  /* .emplduo {
+  /* .photo-Petit-Format-Activites {
           } */
 
-  .emplduo:first-child {
+  .photo-Petit-Format-Activites:first-child {
     margin: 0;
   }
 
