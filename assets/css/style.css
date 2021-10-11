@@ -30,7 +30,7 @@ header {
   margin: 0 50px 30px 50px;
   margin: 0 50px;
 }
-#marque {
+#logo {
   display: flex;
   justify-content: flex-start;
   width: 65%;
@@ -46,7 +46,7 @@ header {
     
 } */
 
-.nav-up {
+.navigation {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -54,19 +54,14 @@ header {
   text-align: center;
 }
 
-.nav-up li {
-  /*  ici il faudra rectifier que 'cest " .nav-up .li" et non "nav-up li" */
+.navigation li {
   display: flex;
   justify-content: space-around;
-  /* text-decoration-line:  ; 
-    on dirait que le <li/> n'a pas de underline eraser  ces nav-up li sont chzanés donc en "nav up p" */
   color: rgb(77, 148, 255);
-  /* margin-left: 5px;
-    margin-right: 5px; */
   padding: 20px;
   /* font-size: 20px; */
 }
-#hebrgmars {
+#hebergementsAMarseille {
   flex: 100%;
   font-size: 20px;
   padding: 25px 30px 1px;
@@ -83,7 +78,7 @@ main {
   margin: 0 50px 0 50px;
   width: auto;
 }
-#position {
+#logoPosition {
   background-color: #f2f2f2;
   height: 40px;
   width: 40px;
@@ -92,7 +87,7 @@ main {
   align-items: center;
   border-radius: 15px 0 0 15px;
 }
-#choix {
+#insertionMotsCles {
   background-color: rgb(#f2f2f2);
   height: 50px;
   width: 30%;
@@ -212,7 +207,7 @@ input {
   padding: 0 10px;
 }
 
-.form {
+.formulaireInserRecherche {
   display: flex;
 
   /* font-family: 'Courier New', "Courier", "monospace"; */
@@ -249,15 +244,15 @@ input {
 .btnSearch::before {
   content: "rechercher";
 }
-.section {
+.sectionFiltreRecherche {
   margin-left: 40px;
   font-weight: bolder;
 }
 
-#titre {
+#titreVacancesDeReve {
   font-weight: bold;
 }
-#vilnatur {
+#phraseVilnatur {
   color: black;
   font-weight: normal;
   margin: 5px 0;
@@ -314,10 +309,8 @@ section {
   box-shadow: 1px 1px 10px -2px grey;
 }
 
-a h3,
-a h4,
-a .star {
-  margin: 5px 0 5px 10px;
+a h3, a h4, a .star {
+  margin: 5px 0 5px 5px;
 }
 
 figcaption .soustitre {
@@ -504,22 +497,22 @@ div h4 {
   object-fit: cover;
 }
 
-.li {
+.btnNavigation {
   padding: 40px;
   border-top: 5px solid transparent;
   margin-top: 0;
   color: #0065fc;
 }
-/* .li:active {
+/* .btnNavigation:active {
    
 } */
-.li:hover {
+.btnNavigation:hover {
   border-top: 5px solid #0065fc;
   margin-top: 0px;
   color: #0065fc;
 }
 
-/* .li:visited {
+/* .btnNavigation:visited {
     
 } */
 /* h*, p*, div, label {
@@ -682,7 +675,7 @@ figcaption {
     /* border: 1px solid orange; */
   }
 
-  #body-headr {
+  #bodyPlusHeader {
     flex-direction: column;
   }
 
@@ -691,7 +684,7 @@ figcaption {
     flex-direction: row;
     margin: 0;
   }
-  #marque {
+  #logo {
     color: rgb(77, 148, 255);
     display: flex;
     justify-content: space-between;
@@ -699,7 +692,7 @@ figcaption {
     order: -1;
   }
 
-  .nav-up {
+  .navigation {
     display: flex;
     flex: 100%;
     justify-content: space-evenly;
@@ -708,15 +701,15 @@ figcaption {
     text-align: center;
   }
 
-  /* .nav-up .li {
+  /* .navigation .btnNavigation {
               
         }
 
-    .li {
+    .btnNavigation {
         
         } */
 
-  #liun {
+  #btnHebergements {
     flex: 30%;
     /*  border-bottom: 5px solid #F2F2F2;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions */
     border-bottom: 5px solid #0065fc;
@@ -724,40 +717,40 @@ figcaption {
     /*  color: black;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions*/
     color: #0065fc;
   }
-  #liun :hover {
+  #btnHebergements:hover {
     
     color: #0065fc;
   }
 
-  #lideu {
+  #btnActivites {
     flex: 25%;
     border-bottom: 5px solid #f2f2f2;
     padding: 20px;
     color: black;
   }
 
-  #lideu:link {
+  #btnActivites:link {
   }
 
-  #lideu:hover {
+  #btnActivites:hover {
     border-bottom: 5px solid #0065fc;
     color: #0065fc;
   }
-  #litroi {
+  #btnsInscrire {
     order: -1;
     flex: 20%;
   }
-  #litroi:active {
+  #btnsInscrire:active {
     border-bottom: 5px solid transparent;
   }
 
   main {
     margin: 0px;
   }
-  .section {
+  .sectionFiltreRecherche {
     margin: 20px;
   }
-  #titre {
+  #titreVacancesDeReve {
     display: flex;
     font-weight: bolder;
     font-size: 24px;
@@ -765,14 +758,13 @@ figcaption {
   /* #vilnatur {
 
         }
-    .form {
+    .formulaireInserRecherche {
 
         }    
-    #choix {
+    #insertionMotsCles {
 
         } */
-
-  #position {
+  #logoPosition {
     background-color: #f2f2f2;
     height: 40px;
     width: 40px;
@@ -946,7 +938,7 @@ figcaption {
 
         } */
 
-        .li:hover {
+        .btnNavigation:hover {
           border-top: 5px solid transparent;
           margin-top: 0px;
           color: none;
