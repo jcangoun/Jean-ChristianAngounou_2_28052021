@@ -266,22 +266,22 @@ section {
   padding: 5px;
 }
 
-#grp-pic {
+#groupHebergGeneral {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(243, 243, 243);
   border-radius: 20px;
 }
-#afich {
+#deroulantPourPlus {
   margin-left: 20px;
 }
 
-.pilier {
+.panelTypeHebergements {
   display: flex;
   width: 100%;
 }
 
-#gdpic {
+#presentHebergGeneral {
   background-color: #f2f2f2;
   border-radius: 30px;
   display: flex;
@@ -291,7 +291,7 @@ section {
   margin: 20px;
   padding: 10px;
 }
-.phototel {
+.hebergProposed {
   flex: 25%;
   width: auto;
 
@@ -310,13 +310,13 @@ section {
 }
 
 a h3, a h4, a .star {
-  margin: 5px 0 5px 5px;
+  margin: 5px 0 5px 10px;
 }
 
-figcaption .soustitre {
+figcaption .nomHeberg {
   margin: 5px 10px 10px 10px;
 }
-.soustitre {
+.nomHeberg {
   font-weight: bolder;
 }
 
@@ -455,7 +455,7 @@ div h4 {
   font-weight: normal;
 }
 
-.phototel img {
+.hebergProposed img {
   display: flex;
   height: 110px;
   width: 100%;
@@ -869,14 +869,14 @@ figcaption {
         
         } */
 
-  .pilier {
+  .panelTypeHebergements {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
     padding: 0;
   }
 
-  #gdpic {
+  #presentHebergGeneral {
     background-color: transparent;
     margin: 0;
   }
@@ -888,17 +888,17 @@ figcaption {
     border-bottom: 5px solid #0065fc;
     color: #0065fc;
   }
-  #grp-pic {
+  #groupHebergGeneral {
     background-color: transparent;
     flex-direction: column;
     padding: 0;
   }
 
-  .phototel {
+  .hebergProposed {
     margin: 10px;
   }
 
-  /* .soustitre {
+  /* .nomHeberg {
 
         }
     .star {
