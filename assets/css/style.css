@@ -90,7 +90,7 @@ main {
 #insertionMotsCles {
   background-color: rgb(#f2f2f2);
   height: 50px;
-  width: 30%;
+  flex: 30%;
   margin: 20px 0;
 }
 #filtre {
@@ -217,7 +217,7 @@ input {
   border: 2px solid #f2f2f2;
   border-radius: 5%;
 }
-.info {
+.infosNbrLogementsDispo {
   display: flex;
   justify-content: flex-start;
   margin-left: 40px;
@@ -755,12 +755,17 @@ figcaption {
   /* #vilnatur {
 
         }
-    .formulaireInserRecherche {
+   */ 
+   .formulaireInserRecherche {
 
         }    
     #insertionMotsCles {
-
-        } */
+      flex: 100%;
+        } 
+        form {
+          flex: 100%;
+          display: flex;
+        }
   #logoPosition {
     background-color: #f2f2f2;
     height: 40px;
@@ -771,15 +776,16 @@ figcaption {
     border-radius: 15px 0 0 15px;
   }
 
-  /* #insearch {
-
-    }    */
+  #insearch {
+    flex-grow: 1;
+    }   
   #search {
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 50px;
     min-height: 50px;
+    margin-left: -10px;
     padding: 20px;
     text-align: center;
     border: none;
@@ -859,7 +865,7 @@ figcaption {
     padding: 0 10px;
   }
 
-  .info {
+  .infosNbrLogementsDispo {
     margin: 20px;
   }
   /* section {
@@ -1025,7 +1031,7 @@ figcaption {
     flex-direction: column;
     padding: 30px;
   }
-  .footcat {
+  .navigation-footer {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
