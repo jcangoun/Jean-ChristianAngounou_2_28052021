@@ -1,0 +1,1049 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* margin-top: 0; */
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+/*   h3{
+    
+}  */
+
+h1 {
+  font-weight: bold;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 50px 30px 50px;
+  margin: 0 50px;
+}
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 65%;
+  color: rgb(77, 148, 255);
+  font-size: 40px;
+
+  /* margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px; */
+  padding-left: 40px;
+}
+/* .conMarq {
+    
+} */
+
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.navigation li {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(77, 148, 255);
+  padding: 20px;
+  /* font-size: 20px; */
+}
+#hebergementsAMarseille {
+  flex: 100%;
+  font-size: 20px;
+  padding: 25px 30px 1px;
+}
+form {
+  display: flex;
+}
+input {
+  font-family: "Raleway", Courier, monospace;
+  padding: 5px 10px;
+  font-size: 11px;
+}
+main {
+  margin: 0 50px 0 50px;
+  width: auto;
+}
+#logoPosition {
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 0 0 15px;
+}
+#insertionMotsCles {
+  background-color: rgb(#f2f2f2);
+  height: 50px;
+  flex: 30%;
+  margin: 20px 0;
+}
+#filtre {
+  margin: 10px 0;
+  padding: 5px;
+  /*display: flex;
+    justify-content: flex-start; */
+}
+.filtr {
+  display: flex;
+}
+
+.filtr input {
+  /*  faire les meme actions que avec les */
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  text-align: center;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+input {
+  z-index: 0;
+  font-weight: bolder;
+}
+
+#lesco {
+  display: flex;
+}
+#eco {
+  display: flex;
+  margin: 20px 10px;
+  border-radius: 30px;
+  border: 2px solid #f2f2f2;
+}
+
+#ecocon {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+#incot {
+  border-radius: 20px;
+  border: 2px solid #f2f2f2;
+}
+
+#famil {
+  display: flex;
+  border-radius: 10%;
+  margin: 20px 10px;
+  border-radius: 30px;
+  border: 2px solid #f2f2f2;
+}
+
+#famcon {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+#romant {
+  display: flex;
+  margin: 20px 10px;
+  border-radius: 30px;
+  border: 2px solid #f2f2f2;
+}
+
+#romcon {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+#autoriz {
+  display: flex;
+  margin: 20px 10px;
+  border-radius: 30px;
+  border: 2px solid #f2f2f2;
+}
+
+#autocon {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.formulaireInserRecherche {
+  display: flex;
+
+  /* font-family: 'Courier New', "Courier", "monospace"; */
+}
+
+#famitest {
+  border: 2px solid #f2f2f2;
+  border-radius: 5%;
+}
+.infosNbrLogementsDispo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+.fa-info-circle::before {
+  content: "\f05a";
+  color: white;
+  background-color: #0065fc;
+  margin: 5px;
+  border-radius: 20px;
+}
+#insearch {
+  border: 1px solid #f2f2f2;
+}
+
+#search {
+  width: 25%;
+  min-width: 105px;
+  background-color: #0065fc;
+  color: white;
+  padding: 10px;
+}
+
+.btnSearch::before {
+  content: "rechercher";
+}
+.sectionFiltreRecherche {
+  margin-left: 40px;
+  font-weight: bolder;
+}
+
+#titreVacancesDeReve {
+  font-weight: bold;
+}
+#phraseVilnatur {
+  color: black;
+  font-weight: normal;
+  margin: 5px 0;
+}
+button {
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  padding: 5px;
+}
+section {
+  padding: 5px;
+}
+
+#groupHebergGeneral {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+}
+#deroulantPourPlus {
+  margin-left: 20px;
+}
+
+.panelTypeHebergements {
+  display: flex;
+  width: 100%;
+}
+
+#presentHebergGeneral {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  display: flex;
+  flex: 60%;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+}
+.hebergProposed {
+  flex: 25%;
+  width: auto;
+
+  max-height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 10px -2px grey;
+}
+
+a h3, a h4, a .star {
+  margin: 5px 0 5px 10px;
+}
+
+figcaption .nomHeberg {
+  margin: 5px 10px 10px 10px;
+}
+.nomHeberg {
+  font-weight: bolder;
+}
+
+aside {
+  border-radius: 30px;
+  flex: 20%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  margin: 20px;
+  padding: 5px;
+}
+#hebergPopulaire {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 40px;
+}
+
+#logoCourb {
+  margin: 5px;
+  font-size: 25px;
+}
+
+.groupHebergPopular {
+  /* probleme de longueur de texte qui du coup le met verticalement décalé*/
+  width: auto;
+}
+.hebergPopularProposed {
+  display: flex;
+  margin: 30px;
+
+  height: 145px;
+  max-height: 145px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px -2px grey;
+}
+
+.hebergPopularProposed #a1 {
+  display: flex;
+}
+.hebergPopularProposed #a3 {
+  display: flex;
+}
+.photoHebergementPopular {
+  flex: 40%;
+  margin: 5px;
+}
+
+.descriptHebergPopular {
+  display: flex;
+  flex: 60%;
+  margin: 15px;
+  justify-content: space-around;
+  flex-direction: column;
+
+  margin: 20px;
+
+  font-weight: bolder;
+}
+.star {
+  color: #0065fc;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 0;
+}
+#greystar101 {
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.inactive {
+  color: #f2f2f2;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 50px 300px 50px 50px;
+  background-color: #f2f2f2;
+}
+.footcat {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.contactiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#activ {
+  font-size: 30px;
+}
+
+.grppic {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#activ1 {
+  flex: 25%;
+  height: 370px;
+  margin: 2px;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#activ2 {
+  margin: 2px;
+  display: flex;
+  flex: 25%;
+  flex-direction: column;
+}
+#activ3 {
+  margin: 2px;
+  flex: 25%;
+  height: 370px;
+}
+#activ4 {
+  margin: 2px;
+  display: flex;
+  flex: 25%;
+  flex-direction: column;
+}
+
+form span {
+  padding: 5px;
+}
+div h4 {
+  font-weight: normal;
+}
+
+.hebergProposed img {
+  display: flex;
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+#activ1 img {
+  object-fit: cover;
+  height: 540px;
+  border-radius: 10px;
+}
+
+#activ2 .divon img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+#activ3 img {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 540px;
+}
+#activ4 .divon img {
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+
+.hebergPopularProposed img {
+  border-radius: 20px 0 0 20px;
+  width: 100%;
+  max-width: 130px;
+  max-height: 135px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btnNavigation {
+  padding: 40px;
+  border-top: 5px solid transparent;
+  margin-top: 0;
+  color: #0065fc;
+}
+/* .btnNavigation:active {
+   
+} */
+.btnNavigation:hover {
+  border-top: 5px solid #0065fc;
+  margin-top: 0px;
+  color: #0065fc;
+}
+
+/* .btnNavigation:visited {
+    
+} */
+/* h*, p*, div, label {
+} */
+
+.panelActivitesMarseille {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#presenteActivitesMarseille {
+  margin-bottom: 20px;
+}
+.group-Activites-Marseille {
+  display: flex;
+  width: 100%;
+}
+
+.activite-Marseille {
+  display: flex;
+  flex: 25%;
+  justify-content: space-around;
+  flex-direction: column;
+
+  border-radius: 20px;
+}
+
+.activite-Marseille:nth-child(-n + 3) {
+  margin: 0 40px 0 0;
+}
+.photo-Grand-Format-Activite {
+  flex: 100%;
+  margin: 0;
+
+  height: 445px;
+  box-shadow: 1px 1px 10px -2px grey;
+  border-radius: 20px;
+}
+
+/* .photo-Grand-Format-Activite img {
+    height: 370px;
+}
+                                surement une maguouille bizarre*/
+
+.photo-Petit-Format-Activites {
+  border-radius: 20px;
+  flex: 100%;
+  margin: 0;
+  box-shadow: 1px 1px 10px -2px grey;
+  border-bottom-color: #f2f2f2;
+
+  /* box-shadow: 1px 1px 20px 0px grey; */
+}
+
+/* .photo-Petit-Format-Activites:first-child {
+    margin: 0 0 40px 0; 
+}                                 margin bottom pour le first element */
+
+.photo-Petit-Format-Activites img {
+  height: 370px;
+}
+
+/* #pfgcs1 {
+
+} */
+
+#img-Grand-Format {
+  width: 100%;
+  height: 390px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+figcaption {
+  /* margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px */
+
+  margin: 20px;
+}
+
+#ancre-Photo-PetitFormat-1-Activites {
+  width: 100%;
+
+  height: 240px;
+  margin: 0 0 20px 0;
+}
+
+#fgcd1 {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+#pfgcd2 {
+  height: 165px;
+  margin: 20px 0 0 0; /*  le contain de fgcd2 bug ;  a revoir*/
+}
+
+#fgcd2 {
+  width: 100%;
+  height: 110px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+#soupatrouill {
+  box-shadow: 1px 1px 20px 0px grey;
+}
+.soupatrouill {
+  box-shadow: 1px 1px 20px 0px grey;
+  border-radius: 20px;
+}
+#sou2patrouill {
+  box-shadow: 1px 1px 20px 0px grey;
+  border-radius: 20px;
+}
+
+/* #pfgcs2 {
+
+} */
+
+#fgcs2 {
+  width: 100%;
+  height: 390px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+#pfgcd3 {
+  height: 195px;
+  margin: 0 0 20px 0;
+}
+
+#fgcd3 {
+  width: 100%;
+  height: 140px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+#pfgcd4 {
+  height: 210px;
+  margin: 20px 0 0 0;
+}
+
+#fgcd4 {
+  width: 100%;
+  height: 155px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid orange; */
+  }
+
+  #bodyPlusHeader {
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  #logo {
+    color: rgb(77, 148, 255);
+    display: flex;
+    justify-content: space-between;
+    flex: 45%;
+    order: -1;
+  }
+
+  .navigation {
+    display: flex;
+    flex: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  /* .navigation .btnNavigation {
+              
+        }
+
+    .btnNavigation {
+        
+        } */
+
+  #btnHebergements {
+    flex: 30%;
+    /*  border-bottom: 5px solid #F2F2F2;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions */
+    border-bottom: 5px solid #0065fc;
+    padding: 20px;
+    /*  color: black;   exceptionnellement je desactive cette couleur black pour montrer la difference d actions*/
+    color: #0065fc;
+  }
+  #btnHebergements:hover {
+    
+    color: #0065fc;
+  }
+
+  #btnActivites {
+    flex: 25%;
+    border-bottom: 5px solid #f2f2f2;
+    padding: 20px;
+    color: black;
+  }
+
+  /* #btnActivites:link {
+  } */
+
+  #btnActivites:hover {
+    border-bottom: 5px solid #0065fc;
+    color: #0065fc;
+  }
+  #btnsInscrire {
+    order: -1;
+    flex: 20%;
+  }
+  #btnsInscrire:active {
+    border-bottom: 5px solid transparent;
+  }
+
+  main {
+    margin: 0px;
+  }
+  .sectionFiltreRecherche {
+    margin: 20px;
+  }
+  #titreVacancesDeReve {
+    display: flex;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  /* #vilnatur {
+
+        }
+   */ 
+   
+   /* .formulaireInserRecherche {
+
+        }     */
+    #insertionMotsCles {
+      flex: 100%;
+        } 
+        form {
+          flex: 100%;
+          display: flex;
+        }
+  #logoPosition {
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+  }
+
+  #insearch {
+    flex-grow: 1;
+    }   
+  #search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    margin-left: -10px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  
+  .btnSearch::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+  }
+  /* #filtre {
+
+        } */
+  .filtr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /*
+        .filtr input {
+            
+        }
+
+     label {
+
+        } */
+  #lesco {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #eco {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #ecocon {
+    padding: 0 10px;
+  }
+
+  /* .icon {
+
+        } */
+
+  #famil {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  #famcon {
+    padding: 0 10px;
+  }
+
+  #romant {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #romcon {
+    padding: 0 10px;
+  }
+
+  #autoriz {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #autocon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .infosNbrLogementsDispo {
+    margin: 20px;
+  }
+  /* section {
+        
+        } */
+
+  .panelTypeHebergements {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+  }
+
+  #presentHebergGeneral {
+    background-color: transparent;
+    margin: 0;
+  }
+
+  /* #hbrgmars {
+
+        } */
+  #hbrgmars :hover {
+    border-bottom: 5px solid #0065fc;
+    color: #0065fc;
+  }
+  #groupHebergGeneral {
+    background-color: transparent;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .hebergProposed {
+    margin: 10px;
+  }
+
+  /* .nomHeberg {
+
+        }
+    .star {
+
+        } */
+
+  aside {
+    margin: 0;
+    border-radius: 0;
+  }
+  /* #hebergPopulaire {
+
+        }
+
+    #logoCourb {
+
+        }
+    .groupHebergPopular {
+
+        }
+*/
+
+.hebergPopularProposed {
+    margin: 10px;     
+  }
+/*
+    .photoHebergementPopular {
+
+        }
+    figure {
+
+        } */
+  figure img {
+    max-height: 135px;
+  }
+  /* .descriptHebergPopular {
+
+        } */
+
+        .btnNavigation:hover {
+          border-top: 5px solid transparent;
+          margin-top: 0px;
+          color: none;
+        }
+  .panelActivitesMarseille {
+    padding: 20px;
+  }
+  /* #presenteActivitesMarseille {
+
+        } */
+
+  .group-Activites-Marseille {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .activite-Marseille {
+    display: flex;
+  }
+  .activite-Marseille:nth-child(-n + 3) {
+    margin: 0;
+  }
+  .photo-Grand-Format-Activite {
+    flex: 95%;
+    height: 190px;
+    margin: 10px 0;
+  }
+
+  #img-Grand-Format{
+    height: 135px;
+  }
+  /* .photo-Petit-Format-Activites {
+          } */
+
+  .photo-Petit-Format-Activites:first-child {
+    margin: 0;
+  }
+
+  #ancre-Photo-PetitFormat-1-Activites {
+    flex: 95%;
+    height: 190px;
+    margin: 10px 0;
+  }
+  #fgcd1 {
+    height: 135px;
+  }
+
+  #pfgcd2 {
+    flex:95%;
+    height: 190px;
+    margin: 10px 0;   /* contain de fgcd2 bug en changeant le nom il faut revoir */
+  }
+  #fgcd2 {
+    height: 135px;
+  }
+  /* .soupatrouill {
+
+          } */
+  #pfgcs2 {
+    margin: 10px 0;
+  }
+  #fgcs2 {
+    height: 135px;
+  }
+  /* figcaption {
+
+          } */
+  #pfgcd3 {
+    flex:95%;
+    height: 190px;
+    margin: 10px 0;
+  }
+  #fgcd3 {
+    height: 135px;
+  }
+  #pfgcd4 {
+    flex:95%;
+    height: 190px;
+    margin: 10px 0;
+  }
+  #fgcd4 {
+    height: 135px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .navigation-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+}
+
+/* exceptionnaly on va mettre min-width mais pour avoir le format 1920px et pas 
+plus et cela dit on met les margin auto qui recentre et gere les "margin" */
+@media (min-width: 1920px) {
+  body {
+    max-width: 1920px;
+    margin: auto;
+  }
+}
