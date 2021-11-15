@@ -88,7 +88,7 @@ main {
   border-radius: 15px 0 0 15px;
 }
 #insertionMotsCles {
-  background-color: rgb(#f2f2f2);
+  background-color:#f2f2f2;
   height: 50px;
   flex: 30%;
   margin: 20px 0;
@@ -945,7 +945,7 @@ figcaption {
         .btnNavigation:hover {
           border-top: 5px solid transparent;
           margin-top: 0px;
-          color: none;
+          
         }
   .panelActivitesMarseille {
     padding: 20px;
